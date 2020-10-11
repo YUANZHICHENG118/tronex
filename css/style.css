@@ -155,7 +155,7 @@ width:21.4275%
 
 .cbp-af-header nav a:hover {
 color:#fff;
-border-top:6px solid #02ba96
+border-top:6px solid #ff5b5b
 }
 
 .cbp-af-header nav a small {
@@ -169,7 +169,7 @@ letter-spacing:0
 }
 
 .cbp-af-header nav a i {
-color:#02ba96;
+color:#ff5b5b;
 font-size:20px;
 vertical-align:-1px
 }
@@ -193,7 +193,7 @@ border-bottom:4px solid transparent
 }
 
 .cbp-af-header.cbp-af-header-shrink nav a:hover {
-border-bottom:4px solid #02ba96
+border-bottom:4px solid #ff5b5b
 }
 
 .cbp-af-header.cbp-af-header-shrink h1 {
@@ -314,7 +314,7 @@ text-transform:uppercase
 }
 
 .mainbackdesc h1 span {
-color:#02ba96
+color:#ff5b5b
 }
 
 .mainico {
@@ -322,7 +322,7 @@ height:50px
 }
 
 .maindesc {
-border-top:5px solid #02ba96;
+border-top:5px solid #ff5b5b;
 padding:20px 0;
 margin-top:20px;
 text-align:left
@@ -340,7 +340,7 @@ margin:10px 0
 }
 
 .maindesctext span i {
-color:#02ba96
+color:#ff5b5b
 }
 
 .maindesctext span img {
@@ -357,7 +357,7 @@ line-height:42px;
 text-align:center;
 font-size:18px;
 color:#fff;
-background:#02ba96;
+background:#ff5b5b;
 border-radius:25px;
 text-decoration:none;
 font-weight:500;
@@ -417,7 +417,7 @@ letter-spacing:1px
 }
 
 .gt {
-color:#02ba96;
+color:#ff5b5b;
 vertical-align:baseline
 }
 
@@ -453,7 +453,7 @@ color:#fff;
 position:absolute;
 z-index:999;
 padding:14px 0;
-border-bottom:2px solid #02ba96
+border-bottom:2px solid #ff5b5b
 }
 
 .news-wrapper .news:hover {
@@ -616,7 +616,7 @@ position:relative;
 margin:15px 0;
 padding:18px;
 font-size:18px;
-border-left:5px solid #02ba96;
+border-left:5px solid #ff5b5b;
 text-shadow:1px 1px 1px #333;
 box-shadow:0 0 30px #1f1f1f;
 color:#fff;
@@ -646,7 +646,7 @@ position:absolute;
 top:-10px;
 right:-10px;
 transition:.3s;
-color:#02ba96;
+color:#ff5b5b;
 box-shadow:0 0 20px #131313;
 border-radius:50%
 }
@@ -738,14 +738,14 @@ margin-bottom:40px
 }
 
 .workdesc b {
-color:#02ba96;
+color:#ff5b5b;
 font-weight:500
 }
 
 .workdescpre {
 text-transform:uppercase;
 font-size:16px;
-color:#02ba96
+color:#ff5b5b
 }
 
 .workdesctitle {
@@ -753,7 +753,7 @@ text-transform:uppercase;
 font-size:26px;
 font-weight:500;
 margin:10px 0 20px;
-border-left:4px solid #02ba96;
+border-left:4px solid #ff5b5b;
 padding-left:10px;
 line-height:1.2
 }
@@ -766,7 +766,7 @@ font-size:30px;
 position:absolute;
 top:0;
 left:20px;
-color:#02ba96
+color:#ff5b5b
 }
 
 .mainaboutitemsblock {
@@ -782,7 +782,7 @@ display:inline-block;
 width:300px;
 height:310px;
 font-weight:300;
-border-top:5px solid #02ba96;
+border-top:5px solid #ff5b5b;
 padding:30px 40px;
 text-align:left;
 line-height:18px;
@@ -848,7 +848,7 @@ width:340px;
 height:371px;
 font-weight:300;
 margin:-30px 0 0 -641px;
-border-top:5px solid #02ba96;
+border-top:5px solid #ff5b5b;
 padding:30px 40px;
 text-align:center;
 line-height:18px;
@@ -922,7 +922,7 @@ vertical-align:top;
 
 .totalsumdesc b {
 font-weight:500;
-color:#02ba96
+color:#ff5b5b
 }
 
 .totalsumnum {
@@ -934,7 +934,7 @@ margin:20px 0;
 text-align:center;
 vertical-align:top;
 font-size:40px;
-color:#02ba96;
+color:#ff5b5b;
 font-weight:600;
 letter-spacing:2px;
 box-shadow:inset 0 0 30px #1b1b1b;
@@ -950,7 +950,7 @@ font-size:30px;
 position:absolute;
 top:0;
 left:20px;
-color:#02ba96
+color:#ff5b5b
 }
 
 .totalsumblock .totalsumwrap .totalsumnum:last-child:before {
@@ -961,7 +961,7 @@ font-size:30px;
 position:absolute;
 top:0;
 left:20px;
-color:#02ba96
+color:#ff5b5b
 }
 
 .maincompanydesc {
@@ -972,7 +972,7 @@ font-size:18px
 }
 
 .maincompany {
-color:#02ba96;
+color:#ff5b5b;
 font-size:20px;
 font-weight:300;
 margin:2px 0 16px
@@ -984,7 +984,7 @@ font-size:14px
 }
 
 .maincompany span a {
-color:#02ba96
+color:#ff5b5b
 }
 
 .maincompany span a:hover {
@@ -1009,7 +1009,7 @@ background:url(../images/dash2.png) center
 
 .certimg {
 height:166px;
-border:4px solid #02ba96
+border:4px solid #ff5b5b
 }
 
 .maincertbtn {
@@ -1108,7 +1108,7 @@ color:#b7b7b7;
 text-decoration:none;
 line-height:18px;
 font-weight:300;
-border-top:5px solid #02ba96;
+border-top:5px solid #ff5b5b;
 text-shadow:1px 1px 1px #333;
 transition:.3s;
 text-align:left;
@@ -1147,11 +1147,11 @@ vertical-align:-3px
 }
 
 .stepsblock b {
-color:#02ba96
+color:#ff5b5b
 }
 
 .stepsblock a {
-color:#02ba96
+color:#ff5b5b
 }
 
 .stepsblock a:hover {
@@ -1343,7 +1343,7 @@ color:#fff
 height:150px;
 vertical-align:0;
 transition:.3s;
-border:3px solid #02ba96
+border:3px solid #ff5b5b
 }
 
 .macblockline img.reviewimg:hover {
@@ -1387,7 +1387,7 @@ width:31%;
 height:70px;
 margin:10px 0;
 padding:20px;
-border-left:5px solid #02ba96;
+border-left:5px solid #ff5b5b;
 text-shadow:1px 1px 1px #333;
 box-shadow:0 0 30px #1f1f1f;
 background:#282828;
@@ -1428,7 +1428,7 @@ width:100%;
 height:50px;
 margin:8px 0;
 padding:10px;
-border-left:5px solid #02ba96;
+border-left:5px solid #ff5b5b;
 text-shadow:1px 1px 1px #333;
 box-shadow:0 0 30px #1f1f1f;
 background:#282828;
@@ -1500,7 +1500,7 @@ left:0;
 height:54px;
 width:54px;
 border-radius:50%;
-background:#02ba96;
+background:#ff5b5b;
 box-shadow:0 0 20px #292929
 }
 
@@ -1709,7 +1709,7 @@ font-size: 12px
 }
 
 .footblock a {
-color:#02ba96
+color:#ff5b5b
 }
 
 .footblock a:hover {
@@ -1919,7 +1919,7 @@ line-height:1;
 font-weight:400;
 margin:-6px 0 0;
 font-size:22px;
-color:#02ba96;
+color:#ff5b5b;
 position:relative;
 vertical-align:middle
 }
@@ -1974,7 +1974,7 @@ padding:35px;
 transform:translate3d(0,0,0);
 color:#fff;
 box-shadow:0 0 40px #1f1f1f;
-border-top:5px solid #02ba96;
+border-top:5px solid #ff5b5b;
 background:#282828;
 transition:.3s;
 background:-moz-linear-gradient(left,#282828 0%,#353535 100%);
@@ -2212,7 +2212,7 @@ margin:0 auto 40px
 .modaldesc h3 {
 font-size:22px;
 margin:20px 0;
-border-left:4px solid #02ba96;
+border-left:4px solid #ff5b5b;
 padding-left:10px;
 font-weight:300
 }
@@ -2222,11 +2222,11 @@ margin:6px 0
 }
 
 .modalline i {
-color:#02ba96
+color:#ff5b5b
 }
 
 .modalline b {
-color:#02ba96
+color:#ff5b5b
 }
 
 .dashmodal {
@@ -2262,7 +2262,7 @@ padding-left:20px
 }
 
 .modallinewrapvalue {
-color:#02ba96;
+color:#ff5b5b;
 font-weight:500;
 font-size:42px;
 line-height:1;
@@ -2283,7 +2283,7 @@ line-height:1.4
 .modalref span {
 display:block;
 text-decoration:underline;
-color:#02ba96
+color:#ff5b5b
 }
 
 .modalref small {
@@ -2296,7 +2296,7 @@ height:60px
 }
 
 .modallink {
-color:#02ba96
+color:#ff5b5b
 }
 
 .modallink:hover {
@@ -2355,7 +2355,7 @@ font-weight:600
 
 .bannerwrap img {
 display:block;
-border:2px solid #02BA96;
+border:2px solid #ff5b5b;
 margin:14px auto;
 max-width:100%;
 height:auto
@@ -2368,7 +2368,7 @@ text-align:center;
 border-radius: 10px;
 width:728px;
 max-width: calc(100% - 26px);
-border:2px solid #02BA96;
+border:2px solid #ff5b5b;
 background-color: #FBF8FF;
 padding:6px 10px;
 outline:none;
@@ -2395,7 +2395,7 @@ background-color: #fff
 
 .calcpage h2 b {
     font-weight: 600;
-    color: #02ba96;
+    color: #ff5b5b;
 }
 
 .contdesc {
@@ -2410,7 +2410,7 @@ background-color: #fff
 .contesttitle {
     font-size: 20px;
     font-weight: 500;
-    color: #02ba96;
+    color: #ff5b5b;
     margin: 20px 0;
     text-transform: uppercase;
 }
@@ -2426,7 +2426,7 @@ background-color: #fff
 
 .contdesc span a {
     font-weight: 500;
-    color: #02ba96;
+    color: #ff5b5b;
 }
 
 .colorchange {
@@ -2435,7 +2435,7 @@ background-color: #fff
 
 @keyframes color-change {
     0% { color: #dcdcdc; }
-    33% { color: #02ba96; }
+    33% { color: #ff5b5b; }
     66% { color: #ff4c4c; }
     100% { color: #dcdcdc; }
   }
