@@ -1,0 +1,58 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为请求参数，包括不限于网址、请求头、响应头、COOKIE、Referer、UserAgent",
+        " *   本文件仅为记录详细请求参数便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "directory": "tronex-net-go4oheg6",
+    "options": {
+        "url": "https://tronex.net/",
+        "index": "index.html",
+        "domain": "tronex.net",
+        "ipaddress": "54.38.100.148",
+        "filenameGenerator": "byType",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.me/",
+                "cookie": "PHPSESSID=ed01e32lnt9kchaj4qb7jrd1ai"
+            }
+        },
+        "response": {
+            "statusCode": 200,
+            "headers": {
+                "server": "nginx",
+                "date": "Sat, 10 Oct 2020 02:57:06 GMT",
+                "content-type": "text/html;charset=UTF-8",
+                "transfer-encoding": "chunked",
+                "connection": "close",
+                "vary": "Accept-Encoding, Accept-Encoding",
+                "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+                "cache-control": "no-store, no-cache, must-revalidate",
+                "pragma": "no-cache",
+                "x-xss-protection": "1; mode=block",
+                "x-content-type-options": "nosniff",
+                "referrer-policy": "no-referrer-when-downgrade",
+                "content-security-policy": "default-src * data: 'unsafe-eval' 'unsafe-inline'",
+                "content-encoding": "gzip"
+            }
+        }
+    },
+    "user": {
+        "isWhite": false
+    },
+    "formatter": [
+        "saveOriginal"
+    ],
+    "time": {
+        "start": 1602298624378,
+        "end": 1602298662268,
+        "spend": "37.89s"
+    }
+}
