@@ -79,7 +79,7 @@
                 <nav>
                     <a href="#about" class="scrollto">About us</a>
                     <a href="#investments" class="scrollto">Investments</a>
-                    <a href="contest" class="colorchange"><i class="fas fa-trophy-alt"></i> Contest</a>
+                    <a href="/tronex/contest.html" class="colorchange"><i class="fas fa-trophy-alt"></i> Contest</a>
                                         <a href="/" class="mainlogo"><img src="images/logo.svg" alt></a>
                     <a href="#" data-remodal-target="invest"><i class="far fa-donate"></i> Make deposit</a>
                     <a href="#" data-remodal-target="wallet" id="goToWallet"><i class="far fa-wallet"></i> Wallet statistic</a>
@@ -763,6 +763,10 @@ library SafeMath {
             </div>
     <div class="modaldesc">
         <div class="dashmodal"></div>
+        <form class="maincontform">
+            <input type="text" class="trxAmount1" placeholder="enter amount" value="100">
+            <a href="#" class="maindescbut investButton1" ><i class="far fa-donate"></i> Deposit</a>
+        </form>
         <div class="modalline"><b class="gt"><i class="fas fa-exclamation-triangle"></i> IMPORTANT!</b> Do not forget about blockchain fee! You should have 2-5 TRX more on your wallet, or your transaction will get out of energy status!</div><br>
         <div class="modalline"><i class="fas fa-check-circle"></i> Minimal deposit amount: <b>100 TRX</b> (no maximal limits)</div>
         <div class="modalline"><i class="fas fa-check-circle"></i> We are working only with <img src="images/tron.svg" alt> TRON (TRX) cryptocurrency</div>
@@ -817,7 +821,9 @@ library SafeMath {
                         <div class="modallinewrapvalue"><img src="images/trx.svg" alt> <span class="userAvailable">...</span></div>
                     </div>
                     <div class="modallinewrap">
-                                            </div>
+                        <a href="#" class="maindescbut withdrawButton" ><i class="far fa-donate"></i> Withdraw</a>
+
+                    </div>
                     <div class="modallinenotify">Click Withdraw button, and you will get instantly all your deposits earnings and affiliate bonuses with a single transaction. Your personal hold-bonus will be reseted.</div>
                 </div>
             </div>
@@ -994,7 +1000,7 @@ $(document).ready(function() {
 
 <script src="js/clipboard.min.js"></script>
 <script>
-var contractAddress = 'TWiti6GpPJPRXtCFKURdTtxN7UEcurQoeS';
+var contractAddress = 'TDQkNeXhwikNPNCyWUoppaqTxFkm2Ga3c2';
 var userReferer = 'No upline';
 var refererDefault = 'T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb';
 var language = 'zh';
