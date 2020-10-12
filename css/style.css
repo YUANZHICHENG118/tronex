@@ -364,8 +364,8 @@ font-weight:500;
 border-top:none;
 border-left:none;
 border-right:none;
-border-bottom:3px solid #047d66;
-text-shadow:1px 1px 1px #047d66;
+border-bottom:3px solid #ff5b5b;
+text-shadow:1px 1px 1px #ff5b5b;
 transition:.1s;
 cursor:pointer;
 text-transform:uppercase
@@ -1513,7 +1513,7 @@ top:calc(50% - 18px);
 left:-1px;
 font-size:28px;
 color:#fff;
-text-shadow:1px 1px 1px #047d66;
+text-shadow:1px 1px 1px #ff5b5b;
 width:54px;
 text-align:center
 }
@@ -1527,7 +1527,7 @@ top:calc(50% - 19px);
 left:1px;
 font-size:28px;
 color:#fff;
-text-shadow:1px 1px 1px #047d66;
+text-shadow:1px 1px 1px #ff5b5b;
 width:54px;
 text-align:center
 }
@@ -1541,7 +1541,7 @@ top:calc(50% - 19px);
 left:1px;
 font-size:28px;
 color:#fff;
-text-shadow:1px 1px 1px #047d66;
+text-shadow:1px 1px 1px #ff5b5b;
 width:54px;
 text-align:center
 }
@@ -1555,7 +1555,7 @@ top:calc(50% - 19px);
 left:1px;
 font-size:28px;
 color:#fff;
-text-shadow:1px 1px 1px #047d66;
+text-shadow:1px 1px 1px #ff5b5b;
 width:54px;
 text-align:center
 }
@@ -1569,7 +1569,7 @@ top:calc(50% - 18px);
 left:3px;
 font-size:28px;
 color:#fff;
-text-shadow:1px 1px 1px #047d66;
+text-shadow:1px 1px 1px #ff5b5b;
 width:54px;
 text-align:center
 }
@@ -1583,7 +1583,7 @@ top:calc(50% - 19px);
 left:1px;
 font-size:28px;
 color:#fff;
-text-shadow:1px 1px 1px #047d66;
+text-shadow:1px 1px 1px #ff5b5b;
 width:54px;
 text-align:center
 }
@@ -1597,7 +1597,7 @@ top:calc(50% - 19px);
 left:1px;
 font-size:28px;
 color:#fff;
-text-shadow:1px 1px 1px #047d66;
+text-shadow:1px 1px 1px #ff5b5b;
 width:54px;
 text-align:center
 }
