@@ -857,10 +857,27 @@ body {
     justify-content: space-between;
     margin-top:80px;
 }
+.workdescblock .left{
+    margin-right:4%;
+}
+.workdescblock .left .workdesc{
+    background: linear-gradient(270deg, #0A203B 0%, #272677 100%);
+    border-radius: 13px;
+    padding: 60px 85px 69px;
+}
+.workdescblock .left .totalsumwrap{
+    margin-top: -80px;
+    position: relative;
+    margin-left: 8%;
+}
 .workdescblock .right{
     background: linear-gradient(360deg, #0A203B 0%, #272677 100%);
     border-radius: 13px;
     padding:63px 78px 59px 82px;
+}
+.workdescblock .right .workdesc:last-child{
+    border-top:1px solid rgba(255,255,255,0.3);
+    padding-top: 35px;
 }
 
 .workdesc {
@@ -888,6 +905,15 @@ body {
     font-weight: 600;
     color: #7F3665;
     line-height: 50px;
+    margin-top:24px;
+}
+.workdescCon{
+    font-size: 16px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #999999;
+    line-height: 30px;
+    margin-top:24px;
 }
 
 .totalsumWrap{
