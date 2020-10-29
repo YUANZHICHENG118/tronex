@@ -1258,6 +1258,17 @@ body {
     border: 2px solid #0660b5;
     padding: 40px 70px;
 }
+.stepsline .steps-left:before{
+    content: " ";
+    position: absolute;
+    height: 2px;
+    width: 64px;
+    background: #0761b5;
+    right: -56px;
+    top: 54%;
+    transform: translate(10px, -54%);
+    z-index: -1;
+}
 .stepsline .steps-left:after{
     content: " ";
     position: absolute;

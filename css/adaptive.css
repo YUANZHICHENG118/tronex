@@ -154,7 +154,7 @@
         margin: 150px 40px 0
     }
 
-    .mainbackwrap:first-child {
+    .mainbackwrap:last-child {
         display: none
     }
 
@@ -313,12 +313,17 @@
 
     .stepsblock {
         width: 95%;
-        margin: 20px 0 0
     }
 
     .stepsblock.stepsblockfull {
         width: calc(100% - 26px);
         margin-left: 0
+    }
+
+    .stepsblock p {
+        font-size: 14px;
+        line-height: 24px;
+        height: auto;
     }
 
     .stepslinewrap .maincontform {
@@ -418,7 +423,12 @@
     }
 
     .maindesc {
-        padding: 15px 0
+        padding: 0 0 15px;
+        margin: 0;
+    }
+
+    .maindesclink {
+        margin-top: 10px;
     }
 
     .mainbackdesc {
@@ -429,13 +439,34 @@
         font-size: 14.5px
     }
 
-    .mainabout h2, .workblock h2, .stepsmainblock h2, .reviewblock h2, .contactsblock h2 {
-        font-size: 28px
+    .headWithbg {
+        font-size: 22px;
+        line-height: 1.2;
+        background-size: 127%;
+        background-position: center 13px;
+    }
+
+    .headWithbg small {
+        font-size: 14px;
+    }
+
+    .stepslinewrap3 .left h3 {
+        margin: 0;
+        font-size: 17px;
+    }
+
+    .stepslinewrap3 .left .subTitle {
+        font-size: 20px;
     }
 
     .mainabout h2 small, .workblock h2 small, .stepsmainblock h2 small, .reviewblock h2 small, .contactsblock h2 small {
         font-size: 16px;
         line-height: 40px
+    }
+
+    .totalsumdesc2 {
+        font-size: 20px;
+        padding-left: 20px;
     }
 
     .mainabout {
@@ -575,19 +606,24 @@
     }
 
     .stepsline {
-        margin-bottom: 40px
+        margin-bottom: 40px;
+        padding-left: 0;
     }
 
-    .stepsline:nth-of-type(3) .stepslinewrap:nth-child(2) {
-        display: none
+    .stepsblock .maindescbut {
+        margin: 15px 0;
     }
 
     .stepsblock.stepsblockfull {
-        width: 100%
+        width: 100%;
+        flex-wrap: wrap;
     }
 
     .stepslinewrap {
-        width: 100%
+        width: 100%;
+        padding: 10px;
+        flex-wrap: wrap;
+
     }
 
     .stepsmainblock h2 {
@@ -618,7 +654,7 @@
     .mainreviewdesc {
         width: calc(100% - 120px);
         font-size: 14px;
-        line-height: 18px
+        line-height: 24px
     }
 
     .mainauditwrap .macblockline {
@@ -682,13 +718,32 @@
     }
 
     .footer {
-        height: inherit
+        height: inherit;
+        padding: 25px 0;
     }
 
-    .footblock .maindescbut:last-child {
-        margin: 0
+    .footblock h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
     }
 
+    .footblock .contact-item {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+    .footerwrap{
+        flex-wrap: wrap;
+    }
+    .footblock:first-child{
+        margin-bottom: 15px;
+        width:100%;
+    }
+    .footblock .maindescbut{
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
     .modaldesc .maincontform {
         margin: 0 auto 20px;
         width: 100%
@@ -716,7 +771,10 @@
     }
 
     .stepsblock h4 {
-        margin-bottom: 10px
+        margin-bottom: 10px;
+        font-size: 20px;
+        height: auto;
+        line-height: initial;
     }
 
     .reviewwrap:last-child {
@@ -735,7 +793,7 @@
     }
 
     .wrap {
-        width: 380px
+        width: 340px
     }
 
     .cbp-af-header .mainlogo img {
@@ -762,10 +820,12 @@
     .mainico {
         height: 40px
     }
-
+    .maindesctext{
+        text-align: center;
+    }
     .maindesctext span {
         font-size: 14px;
-        line-height: 1.2
+        line-height: 1.7;
     }
 
     .cbp-af-header.cbp-af-header-shrink nav a {
@@ -796,11 +856,12 @@
         padding-top: 1px
     }
 
-    .maindescbut {
+    .maindescbut, .maindesctext .maindescbut {
         height: 40px;
         margin-top: 20px;
         line-height: 38px;
-        font-size: 16px
+        font-size: 16px;
+        width: 100%;
     }
 
     .maindesclink a {
@@ -827,7 +888,12 @@
     .mainaboutitem {
         width: 100%;
         margin: 0 auto 15px;
-        text-align: left
+        text-align: left;
+        padding-top: 180px;
+    }
+
+    .mainaboutitem:after {
+        background-position: top 20px center;
     }
 
     .aboutdashleft {
@@ -839,8 +905,20 @@
         margin: 0 auto 15px
     }
 
+    .totalsumwrap .totalsumwrapvalue {
+        height: auto;
+        padding-top: 20px;
+        width: 88%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .totalsumwrap .totalsumwrapvalue .totalsumnum {
+        text-align: center;
+    }
+
     .mainaboutitemsblock {
-        margin: 50px 0 60px
+        margin: 50px 0 30px
     }
 
     .maincompanydesc {
@@ -868,19 +946,64 @@
         font-size: 10px
     }
 
-    .aboutitemgrad1 {
-        display: none
-    }
-
     .workdescblock {
         width: 100%;
         margin: 30px auto 10px;
         order: -1;
-        padding: 0
+        padding: 0;
+        flex-wrap: wrap;
+    }
+
+    .workdescblock .left {
+        padding-top: 0;
+        margin: 0;
+    }
+
+    .workdescblock .left .workdesc {
+        padding: 20px 14px 20px;
+    }
+
+    .workdescblock .left .totalsumwrap {
+        margin-top: 10px;
+        margin-left: 0;
+        width: auto;
+    }
+
+    .workdescblock .right {
+        padding: 20px 14px 20px;
+    }
+
+    .rank-list-head .place:after, .rank-list-head .score:after, .rank-list-head .profit:after {
+        content: none;
+    }
+
+    .rankList .place {
+        width: auto;
+    }
+
+    .workdescCon {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .rank-list-head, .rank-list-body-item .score, .rank-list-body-item .profit {
+        font-size: 14px;
+    }
+
+    .rank-list-body {
+        margin-top: 0;
+    }
+
+    .rank-list-body-item {
+        line-height: 30px;
     }
 
     .workdescpre {
         font-size: 14px
+    }
+
+    .rankList {
+        padding: 20px 19px;
     }
 
     .workdesctitle {
@@ -931,7 +1054,10 @@
     }
 
     .bigstepline {
-        height: 930px
+        height: 760px
+    }
+    .stepslinewrap .bigsteplinecic1{
+        display: none;
     }
 
     .mainabout h2 small, .workblock h2 small, .stepsmainblock h2 small, .reviewblock h2 small, .contactsblock h2 small {
@@ -956,7 +1082,8 @@
 
     .mainreviewdesc {
         width: 100%;
-        font-size: 14px
+        font-size: 14px;
+        padding: 10px;
     }
 
     .mainauditwrap .macblockline {
@@ -1121,7 +1248,8 @@
     }
 
     .smartcode {
-        width: 91%
+        width: 91%;
+        margin: 0;
     }
 
     .cbp-af-header nav a i {
@@ -1258,7 +1386,7 @@
     }
 
     .mainbackdesc h1 {
-        font-size: 16px
+        font-size: 26px
     }
 
     .mainico {
@@ -1266,7 +1394,8 @@
     }
 
     .mainabout {
-        padding: 0
+        padding: 0;
+        margin-top: 0;
     }
 
     .mainaboutitem2 {
@@ -1331,7 +1460,7 @@
     }
 
     .bigstepline {
-        height: 1000px
+        height: 772px
     }
 
     .mainabout h2 small, .workblock h2 small, .stepsmainblock h2 small, .reviewblock h2 small, .contactsblock h2 small {
@@ -1341,7 +1470,8 @@
     .footblock {
         width: 100%;
         line-height: 1.4;
-        font-size: 12px
+        font-size: 12px;
+        padding: 0 10px;
     }
 
     .maincontbut {
