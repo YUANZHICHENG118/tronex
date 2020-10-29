@@ -1228,23 +1228,6 @@ body {
     padding: 60px 0;
 }
 
-.stepsmainblock h2 {
-    color: #fff;
-    text-align: center;
-    font-size: 44px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 0 0 60px;
-}
-
-.stepsmainblock h2 small {
-    display: block;
-    font-size: 22px;
-    font-weight: 200;
-    line-height: 50px;
-    letter-spacing: 1px;
-}
 
 .stepsline {
     display: flex;
@@ -2049,6 +2032,8 @@ body {
     line-height: 25px;
     text-decoration: none;
     display: inline-block;
+    white-space: normal;
+    word-break: break-all;
 }
 
 .footblock .maindescbut {
