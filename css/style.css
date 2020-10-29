@@ -2772,6 +2772,19 @@ html.remodal-is-locked {
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.24);
     padding: 40px 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.rankList-item{
+    flex-basis: 50%;
+    margin-top: 22px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #CCCCCC;
+}
+.rankList-item:first-child,.rankList-item:nth-child(2){
+    margin-top: 0;
 }
 .rank-list-head{
     font-size: 24px;
