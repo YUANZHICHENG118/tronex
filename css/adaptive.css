@@ -3,6 +3,18 @@
         width: 972px
     }
 
+    .totalsumwrap .totalsumwrapvalue {
+        width: 46%;
+    }
+
+    .workdescblock .left .totalsumwrap .totalsumwrapvalue {
+        width: 100%;
+    }
+
+    .mainaboutitem {
+        width: 31%;
+    }
+
     .cbp-af-header nav {
         padding: 0 20px
     }
@@ -17,12 +29,22 @@
     }
 
     .cbp-af-header .mainlogo img {
-        height: 80px;
         vertical-align: middle
     }
 
+    .cbp-af-header .mainlogo img:first-child {
+        width: auto;
+        height: 30px;
+    }
+
+    .cbp-af-header .mainlogo img:nth-child(2) {
+        width: 120px;
+        height: auto;
+    }
+
     .cbp-af-header.cbp-af-header-shrink .mainlogo {
-        margin-top: 0
+        margin-top: 0;
+        height: auto;
     }
 
     .mainphone {
@@ -71,7 +93,7 @@
     }
 
     .totalsumwrap {
-        width: 48%
+        width: 83%
     }
 
     .maincertbtn .maindescbut {
@@ -80,10 +102,6 @@
 
     .macblock {
         width: 46%
-    }
-
-    .workdescblock {
-        width: 50%
     }
 
     .macback {
@@ -97,13 +115,26 @@
         height: 252px
     }
 
-    .stepsblock {
-        width: calc(50% - 40px)
+    .stepslinewrap {
+        padding: 35px 40px;
+    }
+    .stepsblock h4,.stepslinewrap3 .left .subTitle,.stepsline .steps-left h3{
+        font-size: 28px;
+    }
+    .stepsblock p{
+        font-size: 14px;
+    }
+    .stepsline .steps-left{
+        padding: 24px 48px;
     }
 
     .bigstepline {
-        top: 170px;
-        height: 850px
+        top: 220px;
+        height: 750px;
+        left: 27%;
+    }
+    .stepslinewrap .bigsteplinecic1{
+        left: -45px;
     }
 
     .review {
@@ -130,6 +161,10 @@
     .workdesctitle {
         font-size: 20px
     }
+
+    .rankList {
+        padding: 20px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -145,11 +180,13 @@
         letter-spacing: 0;
         font-size: 14px
     }
-    .cbp-af-header.cbp-af-header-shrink .mainlogo{
-        height:auto;
+
+    .cbp-af-header.cbp-af-header-shrink .mainlogo {
+        height: auto;
     }
-    .cbp-af-header .mainlogo img{
-        height:32px;
+
+    .cbp-af-header .mainlogo img {
+        height: 32px;
     }
 
     .mainbackwrap {
@@ -477,7 +514,7 @@
 
     .mainabout {
         padding: 10px 0;
-        margin:0;
+        margin: 0;
     }
 
     .mainaboutitemsblock {
@@ -489,8 +526,8 @@
     .mainaboutitem {
         width: 100%;
         height: inherit;
-        padding-top:170px;
-        margin-bottom:20px;
+        padding-top: 170px;
+        margin-bottom: 20px;
     }
 
     .aboutitemgrad2, .mainaboutitem2 {
@@ -737,18 +774,22 @@
         line-height: 24px;
         margin-bottom: 0;
     }
-    .footerwrap{
+
+    .footerwrap {
         flex-wrap: wrap;
     }
-    .footblock:first-child{
+
+    .footblock:first-child {
         margin-bottom: 15px;
-        width:100%;
+        width: 100%;
     }
-    .footblock .maindescbut{
+
+    .footblock .maindescbut {
         height: 40px;
         line-height: 40px;
         font-size: 16px;
     }
+
     .modaldesc .maincontform {
         margin: 0 auto 20px;
         width: 100%
@@ -826,9 +867,11 @@
     .mainico {
         height: 40px
     }
-    .maindesctext{
+
+    .maindesctext {
         text-align: center;
     }
+
     .maindesctext span {
         font-size: 14px;
         line-height: 1.7;
@@ -848,7 +891,7 @@
     }
 
     .cbp-af-header.cbp-af-header-shrink .mainlogo img {
-        height:25px;
+        height: 25px;
         vertical-align: top;
         padding-top: 7px;
 
@@ -1015,13 +1058,15 @@
         height: 400px;
         overflow: auto;
     }
-    .rankList-item{
+
+    .rankList-item {
         font-size: 12px;
         overflow: auto;
         flex-basis: 100%;
     }
-    .rankList-item:nth-child(2){
-        margin-top:22px;
+
+    .rankList-item:nth-child(2) {
+        margin-top: 22px;
         font-size: 12px;
     }
 
@@ -1075,11 +1120,12 @@
     .bigstepline {
         height: 760px
     }
-    .stepslinewrap .bigsteplinecic1{
+
+    .stepslinewrap .bigsteplinecic1 {
         display: none;
     }
 
-    .mainabout h2 small, .workblock h2 small,  .reviewblock h2 small, .contactsblock h2 small {
+    .mainabout h2 small, .workblock h2 small, .reviewblock h2 small, .contactsblock h2 small {
         font-size: 16px;
         line-height: 1.2;
         margin-top: 10px
@@ -1185,7 +1231,8 @@
     .footblock {
         width: 100%
     }
-    .footblock .address{
+
+    .footblock .address {
         font-size: 14px;
     }
 
@@ -1569,14 +1616,17 @@
         font-size: 14px;
     }
 }
+
 @media screen and (max-width: 320px) {
     .wrap {
         width: 250px
     }
-    .stepsline .steps-left{
+
+    .stepsline .steps-left {
         display: none;
     }
-    .headWithbg,.mainabout h2, .workblock h2, .reviewblock h2, .contactsblock h2{
+
+    .headWithbg, .mainabout h2, .workblock h2, .reviewblock h2, .contactsblock h2 {
         font-size: 20px;
     }
 }
