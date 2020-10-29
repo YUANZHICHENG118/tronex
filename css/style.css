@@ -1247,6 +1247,35 @@ body {
     position: relative;
     width: 100%;
     margin-bottom: 60px;
+    padding-left: 30%;
+}
+.stepsline .steps-left{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(10px, -50%);
+    border: 1px solid #0660b5;
+    padding: 40px 70px;
+}
+.stepsline .steps-left:after{
+    content: " ";
+    position: absolute;
+
+}
+
+.stepsline .steps-left h3{
+    font-size: 36px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #7F3665;
+    line-height: 50px;
+}
+.stepsline .steps-left p{
+    font-size: 24px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #B3B3B3;
+    line-height: 33px;
 }
 
 .stepsline:last-child {
@@ -1254,12 +1283,17 @@ body {
 }
 
 .stepslinewrap {
-    width: 80%;
+    width: 100%;
     background: linear-gradient(90deg, #272677 0%, #0A203B 100%);
     border-radius: 13px;
     display: flex;
     padding:70px 90px;
+    position: relative;
 
+}
+.stepslinewrap .bigsteplinecic1{
+ position: absolute;
+ left: -60px;
 }
 
 .stepslinewrapright {
@@ -1424,11 +1458,11 @@ body {
 
 .bigstepline {
     position: absolute;
-    top: 155px;
-    left: 50%;
+    top: 255px;
+    left: 26%;
     margin-left: -1px;
     width: 3px;
-    height: 800px;
+    height: 866px;
     background: #0862b5;
     opacity: 0.6;
 }
