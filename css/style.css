@@ -471,6 +471,12 @@ body {
     height: 18px;
     vertical-align: -3px;
 }
+.investButton1.maindescbut{
+    width: 100%;
+    margin-top: 30px;
+    height: 60px;
+    line-height: 60px;
+}
 
 .maindescbut {
     display: block;
@@ -1391,7 +1397,6 @@ body {
 
 .stepsblock .maindescbut:hover {
     border-bottom: none;
-    margin-top: 20px;
     margin-bottom: 0;
 }
 
@@ -2241,14 +2246,8 @@ body {
     padding: 35px;
     transform: translate3d(0, 0, 0);
     color: #fff;
-    box-shadow: 0 0 40px #1f1f1f;
-    border-top: 5px solid #ff5b5b;
-    background: #282828;
     transition: 0.3s;
-    background: -moz-linear-gradient(left, #282828 0%, #353535 100%);
-    background: -webkit-linear-gradient(left, #282828 0%, #353535 100%);
-    background: linear-gradient(to right, #282828 0%, #353535 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#282828', endColorstr='#353535', GradientType=1);
+    background: #09090a33;
 }
 
 .remodal h1 {
@@ -2553,9 +2552,10 @@ html.remodal-is-locked {
 
 .modalref {
     margin-top: 20px;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 1.4;
+    font-size: 16px;
+    font-weight: 500;
+    color: #999999;
+    line-height: 30px;
 }
 
 .modalref span {
