@@ -865,6 +865,7 @@ body {
 }
 .workdescblock .left{
     margin-right:4%;
+    padding-top: 70px;
 }
 .workdescblock .left .workdesc{
     background: linear-gradient(270deg, #0A203B 0%, #272677 100%);
@@ -2766,7 +2767,7 @@ html.remodal-is-locked {
 .rank-list-body-item{
     display: flex;
     align-items: center;
-    line-height: 30px;
+    line-height: 60px;
 }
 .rankList .place{
     width: 10%;
@@ -2786,6 +2787,27 @@ html.remodal-is-locked {
     color: #B5B5B5;
     line-height: 22px;
     margin-left: 8px;
+}
+.rank-list-body-item .place{
+    font-size: 32px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 45px;
+}
+.rank-list-body-item:first-child .place{
+    background: url("../images/rankone.png") no-repeat center left;
+    text-indent:-9999px
+
+ }
+.rank-list-body-item:nth-child(2) .place{
+    background: url("../images/rankTwo.png") no-repeat center left;
+    text-indent:-9999px
+}
+.rank-list-body-item:nth-child(3) .place{
+    background: url("../images/rankthree.png") no-repeat center left;
+    text-indent:-9999px
+
 }
 
 .rankList .address{
