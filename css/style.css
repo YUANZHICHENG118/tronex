@@ -2744,6 +2744,67 @@ html.remodal-is-locked {
 .colorchange {
     animation: color-change 2s infinite;
 }
+/*业绩排名*/
+.rankList{
+    box-shadow: 0px 18px 30px 1px rgba(31, 31, 31, 0.52);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    padding: 40px 70px;
+}
+.rank-list-head{
+    font-size: 24px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #CCCCCC;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+}
+.rank-list-body{
+    margin-top: 34px;
+}
+.rank-list-body-item{
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+}
+.rankList .place{
+    width: 10%;
+    position: relative;
+}
+.rank-list-body-item .score,.rank-list-body-item .profit{
+    font-size: 24px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 33px;
+}
+.rank-list-body-item .score span,.rank-list-body-item .profit span{
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #B5B5B5;
+    line-height: 22px;
+    margin-left: 8px;
+}
+
+.rankList .address{
+    padding-left: 5%;
+}
+.rankList .score,.rankList .profit{
+    width: 20%;
+    position: relative;
+    text-align: center;
+
+}
+.rank-list-head .place:after,.rank-list-head .score:after,.rank-list-head .profit:after{
+    content:" ";
+    width: 1px;
+    height: 23px;
+    background: #D8D8D8;
+    position: absolute;
+    right: 0;
+}
 
 @keyframes color-change {
     0% {
