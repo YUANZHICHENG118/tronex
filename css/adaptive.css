@@ -145,6 +145,12 @@
         letter-spacing: 0;
         font-size: 14px
     }
+    .cbp-af-header.cbp-af-header-shrink .mainlogo{
+        height:auto;
+    }
+    .cbp-af-header .mainlogo img{
+        height:32px;
+    }
 
     .mainbackwrap {
         width: 100%
@@ -481,8 +487,10 @@
     }
 
     .mainaboutitem {
-        width: 45%;
-        height: inherit
+        width: 100%;
+        height: inherit;
+        padding-top:170px;
+        margin-bottom:20px;
     }
 
     .aboutitemgrad2, .mainaboutitem2 {
@@ -1549,5 +1557,16 @@
     .calcpage {
         width: 300px;
         font-size: 14px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .wrap {
+        width: 250px
+    }
+    .stepsline .steps-left{
+        display: none;
+    }
+    .headWithbg,.mainabout h2, .workblock h2, .stepsmainblock h2, .reviewblock h2, .contactsblock h2{
+        font-size: 20px;
     }
 }

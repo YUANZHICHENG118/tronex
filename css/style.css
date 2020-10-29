@@ -904,6 +904,11 @@ body {
     font-weight: 500;
     color: #CCCCCC;
     line-height: 33px;
+    display: flex;
+    align-items: center;
+}
+.workdescpre span{
+    margin-left: 5px;
 }
 
 .workdesctitle {
