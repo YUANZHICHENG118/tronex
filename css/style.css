@@ -189,8 +189,6 @@ body {
 }
 
 .cbp-af-header .mainlogo {
-    height: 100px;
-    margin-top: 10px;
     display: flex;
     align-items: center;
 }
@@ -226,6 +224,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
+    height: 100%;
 }
 
 .cbp-af-header h1 {
@@ -244,12 +243,14 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 40px;
+    height: 100%;
 }
 
 .cbp-af-header nav .nav-right {
     flex: 1;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .cbp-af-header nav .nav-right a {
@@ -264,7 +265,6 @@ body {
     letter-spacing: 1.4px;
     text-decoration: none;
     cursor: pointer;
-    line-height: 120px;
     display: inline-block;
     vertical-align: middle;
     border-top: 6px solid transparent;
@@ -295,9 +295,10 @@ body {
 }
 
 .cbp-af-header nav a i {
-    color: #ff5b5b;
+    color: #892A67;
     font-size: 20px;
     vertical-align: -1px;
+    display: none;
 }
 
 .cbp-af-header nav a {
@@ -313,7 +314,6 @@ body {
 }
 
 .cbp-af-header.cbp-af-header-shrink nav a {
-    line-height: 76px;
     border-top: none;
     border-bottom: 4px solid transparent;
 }
