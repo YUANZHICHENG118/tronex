@@ -1572,6 +1572,13 @@
     .calcpage h2 {
         font-size: 16px;
     }
+    .stepsblock.stepsblockfull .left, .stepslinewrap3 .left{
+        width: 100%;
+        text-align: center;
+    }
+    .stepslinewrap3 .left h3{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -1805,6 +1812,13 @@
     }
     .cbp-af-header nav a i{
         display: inline-block;
+    }
+    .stepsblock.stepsblockfull .left, .stepslinewrap3 .left{
+        width: 100%;
+        text-align: center;
+    }
+    .stepslinewrap3 .left h3{
+        text-align: center;
     }
 }
 
