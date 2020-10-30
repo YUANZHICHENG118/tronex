@@ -550,7 +550,7 @@ body {
 }
 
 .gt {
-    color: #ff5b5b;
+    color: #892A67;
     vertical-align: baseline;
 }
 
@@ -2502,6 +2502,8 @@ html.remodal-is-locked {
 
 .remodal-is-initialized {
     display: inline-block;
+    background: url("../images/mcokup-2.png") no-repeat bottom;
+    background-size: 100%;
 }
 
 .modaldesc {
@@ -2600,7 +2602,7 @@ html.remodal-is-locked {
 .modalref span {
     display: block;
     text-decoration: underline;
-    color: #ff5b5b;
+    color: #892A67;
 }
 
 .modalref small {
@@ -2613,7 +2615,7 @@ html.remodal-is-locked {
 }
 
 .modallink {
-    color: #ff5b5b;
+    color: #892A67;
 }
 
 .modallink:hover {
