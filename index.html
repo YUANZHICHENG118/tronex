@@ -105,26 +105,8 @@
       <a href="/en/index.html" class="langwrap langwrap_en"
         ><img src="images/eng2.svg" alt=""
       /></a>
-      <a href="/en/index.html" class="langwrap langwrap_fa"
-        ><img src="images/irn2.svg" alt=""
-      /></a>
-      <a href="/en/index.html" class="langwrap langwrap_ru"
-        ><img src="images/rus2.svg" alt=""
-      /></a>
       <a href="/index.html" class="langwrap langwrap_zh"
         ><img src="images/chi2.svg?v=2" alt=""
-      /></a>
-      <a href="/en/index.html" class="langwrap langwrap_es"
-        ><img src="images/esp2.svg" alt=""
-      /></a>
-      <a href="/en/index.html" class="langwrap langwrap_ar"
-        ><img src="images/ara2.svg" alt=""
-      /></a>
-      <a href="/en/index.html" class="langwrap langwrap_tr"
-        ><img src="images/trk2.svg" alt=""
-      /></a>
-      <a href="/en/index.html" class="langwrap langwrap_bd"
-        ><img src="images/bgd2.svg" alt=""
       /></a>
     </div>
     <div class="socblock">
@@ -201,7 +183,7 @@
                       >
                       <div class="maindesclink">
                         <a
-                          href="https://tronscan.org/#/contract/TCtZ5AR46V1Umzn7eHBVwpViBu29wXZpkS/code"
+                          href="https://tronscan.org/#/contract/TRZrNabxDCZRwhBdVhJbWvw1NHKTvj8qxJ/code"
                           class="maindesclink"
                           target="_blank"
                           >查看TRONex 3.0智能合约</a
@@ -444,7 +426,7 @@
                   <h4>
                     发送TRX到我们的智能合约
                   </h4>
-                  <p>在智能合约地址上发送任意数量的TRX，并开始获取收益。最低存款金额为100 TRX。没有最大数量。</p>
+                  <p>在智能合约地址上发送任意数量的TRX，并开始获取收益。最低存款金额为200 TRX。没有最大数量。</p>
                   <a
                     href="javascript:void(0)"
                     data-remodal-target="invest"
@@ -526,7 +508,7 @@ pragma solidity 0.5.10;
                     contract tronplan {
                         using SafeMath for uint256;
 
-                        uint256 constant public INVEST_MIN_AMOUNT = 100 trx;
+                        uint256 constant public INVEST_MIN_AMOUNT = 200 trx;
                         uint256 constant public BASE_PERCENT = 10;
                         uint256[] public REFERRAL_PERCENTS = [50, 20, 5];
                         uint256 constant public MARKETING_FEE = 80;
@@ -866,9 +848,9 @@ pragma solidity 0.5.10;
               <h3>智能合约地址:</h3>
               <a
                 class="address"
-                href="https://tronscan.org/#/contract/TCtZ5AR46V1Umzn7eHBVwpViBu29wXZpkS/code"
+                href="https://tronscan.org/#/contract/TRZrNabxDCZRwhBdVhJbWvw1NHKTvj8qxJ/code"
                 target="_blank"
-                >TCtZ5AR46V1Umzn7eHBVwpViBu29wXZpkS</a
+                >TRZrNabxDCZRwhBdVhJbWvw1NHKTvj8qxJ</a
               >
             </div>
             <div class="footblock">
@@ -921,7 +903,7 @@ pragma solidity 0.5.10;
             type="text"
             class="trxAmount1"
             placeholder="enter amount"
-            value="100"
+            value="200"
           />
           <a href="javascript:void(0)" class="maindescbut investButton1"
             ><i class="far fa-donate"></i> 充值</a
@@ -935,7 +917,7 @@ pragma solidity 0.5.10;
         <br />
         <div class="modalline">
           <i class="fas fa-check-circle"></i> 最低的存款金额:
-          <b>100 TRX</b> (没有最大的限制)
+          <b>200 TRX</b> (没有最大的限制)
         </div>
         <div class="modalline">
           <i class="fas fa-check-circle"></i> 我们只使用
@@ -1287,7 +1269,7 @@ https://www.tronplan.cc/images/logo.svg</textarea
 
     <script src="js/clipboard.min.js"></script>
     <script>
-      var contractAddress = 'TCtZ5AR46V1Umzn7eHBVwpViBu29wXZpkS'
+      var contractAddress = 'TRZrNabxDCZRwhBdVhJbWvw1NHKTvj8qxJ'
       var userReferer = 'No upline'
       var refererDefault = 'TEQkamUMZA3n9obPeW2RNk8gyyqDJCQoc5'
       var language = 'zh'
