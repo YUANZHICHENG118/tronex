@@ -730,18 +730,13 @@ body {
 .macblockline {
     position: relative;
     margin: 15px 0;
-    padding: 18px;
+    padding:5% 18px;
     font-size: 18px;
-    border-left: 5px solid #ff5b5b;
     text-shadow: 1px 1px 1px #333;
-    box-shadow: 0 0 30px #1f1f1f;
     color: #fff;
-    background: #282828;
     transition: 0.3s;
-    background: -moz-linear-gradient(left, #282828 0%, #353535 100%);
-    background: -webkit-linear-gradient(left, #282828 0%, #353535 100%);
-    background: linear-gradient(to right, #282828 0%, #353535 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#282828', endColorstr='#353535', GradientType=1);
+    background: linear-gradient(180deg, #272677 0%, #0A203B 100%);
+    border-radius: 13px;
 }
 
 .macblockline:hover {
@@ -1866,9 +1861,12 @@ body {
 }
 
 .maincontform label {
+    font-size: 24px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #CCCCCC;
+    line-height: 33px;
     display: block;
-    margin: 10px 4px;
-    font-size: 16px;
 }
 
 .maincontform label img {
@@ -1885,16 +1883,21 @@ body {
 }
 
 .maincontform input[type="text"] {
-    height: 40px;
-    line-height: 40px;
-    background-color: #282828;
-    border-radius: 10px;
-    box-shadow: inset 0 0 50px #1b1b1b;
+    height: 62px;
+    line-height: 62px;
     color: #fff;
     padding: 0 10px;
     font-size: 18px;
     font-weight: 300;
     border: none;
+    background: #070D29;
+    border-radius: 12px;
+    opacity: 0.3;
+    margin: 16px 0 40px;
+}
+.maincontform .buttoncopy{
+    margin: 0 auto;
+    width: 100%;
 }
 
 .maincontform input[type="text"]:focus {
@@ -2471,7 +2474,7 @@ html.remodal-is-locked {
 .remodal-is-initialized {
     display: inline-block;
     background: url("../images/mcokup-2.png") no-repeat bottom;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 .modaldesc {
@@ -2536,23 +2539,46 @@ html.remodal-is-locked {
 
 .modallinewrap {
     width: 50%;
+    position: relative;
+}
+.modallinewrap .label{
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #B3B3B3;
+    line-height: 30px;
+}
+.modallinewrap .title{
+    font-size: 16px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 22px;
 }
 
 .modallinewrap .withdrawButton {
-    margin-top: 4px;
+    width: 90%;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .modallinewrap:nth-of-type(2) {
-    border-left: 1px solid #535353;
+    border-left: 1px solid rgba(255,255,255,.3);
     padding-left: 20px;
 }
 
 .modallinewrapvalue {
-    color: #ff5b5b;
+    color: #892A67;;
     font-weight: 500;
-    font-size: 42px;
+    font-size: 48px;
     line-height: 1;
     margin-top: 8px;
+    font-family: Bahnschrift_SemiBold;
 }
 
 .modallinewrapvalue img {
