@@ -466,8 +466,9 @@
     }
 
     .maindesc {
-        padding: 0 0 15px;
+        padding: 30px 0 15px;
         margin: 0;
+        text-align: center;
     }
 
     .maindesclink {
@@ -475,22 +476,32 @@
     }
 
     .mainbackdesc {
-        margin: 50px 20px 0
+        margin: 100px 20px 0;
+        text-align:center;
+    }
+    .mainbackdesc h1 {
+        font-size: 40px;
+    }
+
+    .maindesctext .maindescbut{
+        margin: 48px auto 0;
+        font-size: 21px;
     }
 
     .maindesctext span {
-        font-size: 14.5px
+        font-size: 20px;
+        line-height: 36px;
     }
 
     .headWithbg {
-        font-size: 22px;
+        font-size: 30px;
         line-height: 1.2;
         background-size: 127%;
         background-position: center 13px;
     }
 
     .headWithbg small {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .stepslinewrap3 .left h3 {
@@ -500,11 +511,6 @@
 
     .stepslinewrap3 .left .subTitle {
         font-size: 20px;
-    }
-
-    .mainabout h2 small, .workblock h2 small, .reviewblock h2 small, .contactsblock h2 small {
-        font-size: 16px;
-        line-height: 40px
     }
 
     .totalsumdesc2 {
@@ -837,10 +843,6 @@
 
     .stepslinewrap .bigsteplinecic1 {
         display: none;
-    }
-
-    .mainbackdesc h1 {
-        font-size: 32px;
     }
 
     .mainaboutitem {
