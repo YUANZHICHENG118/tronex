@@ -730,7 +730,7 @@ body {
 .macblockline {
     position: relative;
     margin: 15px 0;
-    padding:5% 18px;
+    padding:8% 18px;
     font-size: 18px;
     text-shadow: 1px 1px 1px #333;
     color: #fff;
@@ -2520,9 +2520,10 @@ html.remodal-is-locked {
 
 .dashmodal {
     width: 100%;
-    height: 2px;
-    background: url(../images/dash.png) center;
+    height: 1px;
+    /*background: url(../images/dash.png) center;*/
     margin-bottom: 35px;
+    background: rgba(255,255,255,.3);
 }
 
 .modallineflex {
@@ -2532,9 +2533,12 @@ html.remodal-is-locked {
 }
 
 .modallineflex .modallinenotify {
-    font-size: 12px;
-    margin-top: 12px;
-    font-style: italic;
+    font-size: 11px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #CCCCCC;
+    line-height: 16px;
+    margin-bottom: 20px;
 }
 
 .modallinewrap {
@@ -2561,10 +2565,9 @@ html.remodal-is-locked {
     height: 36px;
     line-height: 36px;
     margin: 0 auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+}
+.modallinewrap .withdrawButton i{
+    margin-right: 5px;
 }
 
 .modallinewrap:nth-of-type(2) {
@@ -2577,7 +2580,7 @@ html.remodal-is-locked {
     font-weight: 500;
     font-size: 48px;
     line-height: 1;
-    margin-top: 8px;
+    margin-top: 16px;
     font-family: Bahnschrift_SemiBold;
 }
 
@@ -2600,8 +2603,11 @@ html.remodal-is-locked {
 }
 
 .modalref small {
-    font-size: 12px;
-    font-style: italic;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #CCCCCC;
+    line-height: 30px;
 }
 
 .modallogo {
