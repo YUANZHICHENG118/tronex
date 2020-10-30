@@ -281,7 +281,7 @@ body {
 
 .cbp-af-header nav a:hover {
     color: #fff;
-    border-top: 6px solid #ff5b5b;
+    /*border-top: 6px solid #ff5b5b;*/
 }
 
 .cbp-af-header nav a small {
@@ -1451,7 +1451,7 @@ body {
     left: 26%;
     margin-left: -1px;
     width: 3px;
-    height: 866px;
+    height: 956px;
     background: #0862b5;
     opacity: 0.6;
 }
