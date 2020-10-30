@@ -118,13 +118,16 @@
     .stepslinewrap {
         padding: 35px 40px;
     }
-    .stepsblock h4,.stepslinewrap3 .left .subTitle,.stepsline .steps-left h3{
+
+    .stepsblock h4, .stepslinewrap3 .left .subTitle, .stepsline .steps-left h3 {
         font-size: 28px;
     }
-    .stepsblock p{
+
+    .stepsblock p {
         font-size: 14px;
     }
-    .stepsline .steps-left{
+
+    .stepsline .steps-left {
         padding: 24px 48px;
     }
 
@@ -133,7 +136,8 @@
         height: 750px;
         left: 27%;
     }
-    .stepslinewrap .bigsteplinecic1{
+
+    .stepslinewrap .bigsteplinecic1 {
         left: -45px;
     }
 
@@ -212,10 +216,6 @@
 
     .mainabout {
         padding: 20px 0 10px
-    }
-
-    .mainabout h2, .workblock h2, .reviewblock h2, .contactsblock h2 {
-        font-size: 34px
     }
 
     .mainaboutitemsblock {
@@ -454,7 +454,7 @@
 
 @media screen and (max-width: 768px) {
     .wrap {
-        width: 550px
+        width: 88%;
     }
 
     .cbp-af-header nav a:nth-child(-n+3) {
@@ -521,13 +521,6 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap
-    }
-
-    .mainaboutitem {
-        width: 100%;
-        height: inherit;
-        padding-top: 170px;
-        margin-bottom: 20px;
     }
 
     .aboutitemgrad2, .mainaboutitem2 {
@@ -831,6 +824,63 @@
         margin-top: 20px;
         margin-bottom: 20px
     }
+
+    .totalsumwrap .totalsumwrapvalue {
+        height: 200px;
+    }
+
+    .workdescblock .left .totalsumwrap .totalsumwrapvalue {
+        padding-left: 14%;
+        padding-top: 50px;
+        width: 280px;
+    }
+
+    .stepslinewrap .bigsteplinecic1 {
+        display: none;
+    }
+
+    .mainbackdesc h1 {
+        font-size: 32px;
+    }
+
+    .mainaboutitem {
+        width: 100%;
+        height: inherit;
+        padding-top: 230px;
+        margin-bottom: 60px;
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .mainaboutitem::after {
+        background-position: top 20px center;
+    }
+
+    .mainaboutitem h3 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .workdescblock .left .workdesc {
+        padding: 30px 45px 29px;
+    }
+
+    .workdescblock .right {
+        padding: 33px 38px 9px 32px;
+    }
+
+    .workdescblock .left .totalsumwrap {
+        margin-top: -56px;
+    }
+
+    .workdesctitle {
+        line-height: 26px;
+        font-size: 18px;
+    }
+
+    .workdescpre {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -842,8 +892,13 @@
         width: 340px
     }
 
-    .cbp-af-header .mainlogo img {
-        height: 60px
+    .cbp-af-header.cbp-af-header-shrink .mainlogo img:nth-child(1) {
+        height: 30px;
+    }
+
+    .cbp-af-header.cbp-af-header-shrink .mainlogo img:nth-child(2) {
+        height: auto;
+        width: 100px;
     }
 
     .cbp-af-header nav a {
@@ -860,7 +915,7 @@
     }
 
     .mainbackdesc h1 {
-        font-size: 19px;
+        font-size: 26px;
         text-align: center;
     }
 
@@ -868,22 +923,22 @@
         height: 40px
     }
 
+    .headWithbg {
+        font-size: 20px;
+    }
+
     .maindesctext {
         text-align: center;
     }
 
     .maindesctext span {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.7;
     }
 
     .cbp-af-header.cbp-af-header-shrink nav a {
         line-height: 60px;
-        font-size: 14px;
-    }
-
-    .cbp-af-header.cbp-af-header-shrink .mainlogo img {
-        height: 50px
+        font-size: 15px;
     }
 
     .cbp-af-header.cbp-af-header-shrink {
@@ -891,14 +946,9 @@
     }
 
     .cbp-af-header.cbp-af-header-shrink .mainlogo img {
-        height: 25px;
         vertical-align: top;
         padding-top: 7px;
 
-    }
-
-    .cbp-af-header .mainlogo {
-        /*height:60px*/
     }
 
     .cbp-af-header .mainlogo img {
@@ -908,9 +958,9 @@
     }
 
     .maindescbut, .maindesctext .maindescbut {
-        height: 40px;
+        height: 50px;
         margin-top: 20px;
-        line-height: 38px;
+        line-height: 50px;
         font-size: 16px;
         width: 100%;
     }
@@ -921,11 +971,6 @@
 
     .maindesclink a:lang(ru) {
         font-size: 13px
-    }
-
-    .mainabout h2, .workblock h2, .reviewblock h2, .contactsblock h2 {
-        font-size: 24px;
-        line-height: 1.2
     }
 
     .mainaboutitem2 h3 {
@@ -941,10 +986,13 @@
         margin: 0 auto 15px;
         text-align: left;
         padding-top: 180px;
+        font-size: 14px;
+        line-height: 24px;
     }
 
     .mainaboutitem:after {
         background-position: top 20px center;
+        background-size: auto 120px;
     }
 
     .aboutdashleft {
@@ -962,6 +1010,11 @@
         width: 100%;
         padding-left: 0;
         text-align: center;
+    }
+
+    .workdescblock .left .totalsumwrap .totalsumwrapvalue {
+        width: 100%;
+        padding: 40px 0;
     }
 
     .totalsumwrap .totalsumwrapvalue .totalsumnum {
@@ -1421,13 +1474,16 @@
     }
 
     .cbp-af-header nav a:nth-child(4) {
-        width: 100%;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .cbp-af-header nav a:nth-child(n+5) {
-        width: 50%;
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    .mainaboutitem {
+        font-size: 14px;
+        line-height: 24px;
     }
 
     .cbp-af-header nav {
@@ -1615,6 +1671,19 @@
         width: 300px;
         font-size: 14px;
     }
+
+    .workdescblock .left .totalsumwrap .totalsumwrapvalue {
+        padding-left: 0%;
+        padding-top: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .headWithbg {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -1628,5 +1697,8 @@
 
     .headWithbg, .mainabout h2, .workblock h2, .reviewblock h2, .contactsblock h2 {
         font-size: 20px;
+    }
+    .maindesctext span{
+        font-size: 14px;
     }
 }
