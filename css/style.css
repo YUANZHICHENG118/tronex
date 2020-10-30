@@ -425,15 +425,11 @@ body {
 }
 
 .mainbackdesc h1 {
-    letter-spacing: 1px;
-    text-shadow: 1px 1px 1px #333;
-    text-transform: uppercase;
-    height: 78px;
-    font-size: 60px;
-    font-family: Futura-Medium, Futura;
-    font-weight: 500;
-    color: #892A67;
-    line-height: 80px;
+    font-size: 72px;
+    font-family: Futura-Bold, Futura;
+    font-weight: bold;
+    color: #A4378F;
+    line-height: 96px;
 }
 
 .mainbackdesc h1 span {
@@ -498,6 +494,17 @@ body {
     transition: 0.1s;
     cursor: pointer;
     text-transform: uppercase;
+    position: relative;
+}
+.maindescbut:after{
+    position: absolute;
+    content: " ";
+    background: url("../images/arrow-right.png") no-repeat center;
+    right: 5%;
+    top: 0;
+    width: 5%;
+    height: 100%;
+    background-size: contain;
 }
 
 /*.maindescbut:hover {*/
