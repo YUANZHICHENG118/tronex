@@ -1067,10 +1067,12 @@ body {
 .totalsumwrap .totalsumwrapvalue {
     width: 487px;
     height: 255px;
-    background: linear-gradient(90deg, #5F0D42 0%, #0D1C46 100%);
+    /*background: linear-gradient(90deg, #5F0D42 0%, #0D1C46 100%);*/
     border-radius: 12px;
     padding-top:62px;
     padding-left: 95px;
+    background: url("../images/mcokup-2.png") no-repeat bottom;
+    background-size: cover;
 }
 .totalsumwrap .totalsumwrapvalue .totalsumnum{
     text-align: left;
