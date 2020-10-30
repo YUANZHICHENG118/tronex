@@ -1859,6 +1859,24 @@ body {
     margin: 30px auto 0;
     text-align: center;
 }
+.maincontform .dashmodal{
+    margin-top:46px;
+}
+.maincontform  .modalline{
+    text-align: left;
+    font-size: 16px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 22px;
+}
+.maincontform  .modalline .grey{
+    font-weight: 400;
+    color: #CCCCCC;
+}
+.maincontform .modalline>i{
+ color: #B3B3B3;
+}
 
 .maincontform label {
     font-size: 24px;
