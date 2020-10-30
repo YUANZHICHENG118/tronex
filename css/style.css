@@ -2536,12 +2536,11 @@ html.remodal-is-locked {
     margin: 6px 0;
 }
 
-.modalline i {
+.modalline .gt,.modalline .gt i{
     color: #ff5b5b;
 }
-
-.modalline b {
-    color: #ff5b5b;
+.modalline b,.modalline i  {
+    color: #892A67;
 }
 
 .dashmodal {
