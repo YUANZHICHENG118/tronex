@@ -2295,6 +2295,7 @@ body {
     font-size: 24px;
     letter-spacing: 1px;
     font-weight: 500;
+    background-size: contain;
 }
 
 .remodal.remodal-is-opening,
