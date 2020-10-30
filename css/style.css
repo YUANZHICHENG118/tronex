@@ -1403,11 +1403,11 @@ body {
 }
 
 .stepsblock b {
-    color: #ff5b5b;
+    color: #892A67;
 }
 
 .stepsblock a {
-    color: #ff5b5b;
+    color: #892A67;
 }
 
 .stepsblock a:hover {
@@ -2880,10 +2880,10 @@ html.remodal-is-locked {
         color: #dcdcdc;
     }
     33% {
-        color: #ff5b5b;
+        color: #892A90;
     }
     66% {
-        color: #ff4c4c;
+        color: #892A67;
     }
     100% {
         color: #dcdcdc;
