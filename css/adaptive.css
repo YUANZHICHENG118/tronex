@@ -545,6 +545,9 @@
     .cbp-af-header .mainlogo{
         height: auto;
     }
+    .cbp-af-header{
+        height:80px;
+    }
     .cbp-af-header nav .nav-right a:nth-child(-n+3) {
         display: none
     }
@@ -589,14 +592,14 @@
     }
 
     .headWithbg {
-        font-size: 30px;
+        font-size:26px;
         line-height: 1.2;
         background-size: 127%;
         background-position: center 13px;
     }
 
     .headWithbg small {
-        font-size: 20px;
+        font-size:18px;
     }
 
     .stepslinewrap3 .left h3 {
@@ -939,7 +942,7 @@
     .workdescblock .left .totalsumwrap .totalsumwrapvalue {
         padding-left:0;
         padding-top: 0;
-        width: 280px;
+        width: 237px;
     }
 
     .totalsumwrap .totalsumwrapvalue .totalsumnum {

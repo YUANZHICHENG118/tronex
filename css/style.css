@@ -318,10 +318,6 @@ body {
     border-bottom: 4px solid transparent;
 }
 
-.cbp-af-header.cbp-af-header-shrink nav a:hover {
-    border-bottom: 4px solid #ff5b5b;
-}
-
 .cbp-af-header.cbp-af-header-shrink h1 {
     font-size: 2em;
 }
@@ -707,24 +703,6 @@ body {
     padding: 60px 0;
     box-sizing: border-box;
 }
-
-.workblock h2 {
-    color: #fff;
-    text-align: center;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 40px 0;
-}
-
-.workblock h2 small {
-    display: block;
-    font-size: 22px;
-    font-weight: 200;
-    line-height: 50px;
-    letter-spacing: 1px;
-}
-
 .dashtop {
     width: 2200px;
     height: 2px;
@@ -1551,24 +1529,6 @@ body {
     box-sizing: border-box;
     padding: 60px 0;
 }
-
-.reviewblock h2 {
-    color: #fff;
-    text-align: center;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 0 0 50px;
-}
-
-.reviewblock h2 small {
-    display: block;
-    font-size: 22px;
-    font-weight: 200;
-    line-height: 50px;
-    letter-spacing: 1px;
-}
-
 .reviewwrap {
     display: flex;
     justify-content: space-between;
