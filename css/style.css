@@ -212,8 +212,13 @@ body {
 }
 
 .cbp-af-header.cbp-af-header-shrink .mainlogo img {
-    /*height:60px;*/
     transition: 0.4s;
+}
+.cbp-af-header.cbp-af-header-shrink .mainlogo img:first-child,.cbp-af-header .mainlogo img:first-child{
+    width: 40px;
+}
+.cbp-af-header.cbp-af-header-shrink .mainlogo img:nth-child(2),.cbp-af-header .mainlogo img:nth-child(2){
+   width: 120px;
 }
 
 .cbp-af-header .cbp-af-inner {
