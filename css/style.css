@@ -2735,6 +2735,8 @@ html.remodal-is-locked {
     font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #CCCCCC;
+    word-break: break-all;
+    line-height: 24px;
 }
 .rankList-item:first-child,.rankList-item:nth-child(2){
     margin-top: 0;

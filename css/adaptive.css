@@ -551,7 +551,8 @@
     .cbp-af-header nav .nav-right a:nth-child(-n+3) {
         display: none
     }
-    .cbp-af-header .mainlogo img:first-child{
+    .cbp-af-header.cbp-af-header-shrink .mainlogo img:first-child, .cbp-af-header .mainlogo img:first-child{
+        width: auto;
         height: 24px;
     }
     .cbp-af-header .mainlogo img:nth-child(2){
@@ -942,7 +943,7 @@
     .workdescblock .left .totalsumwrap .totalsumwrapvalue {
         padding-left:0;
         padding-top: 0;
-        width: 237px;
+        width: 87%;
     }
 
     .totalsumwrap .totalsumwrapvalue .totalsumnum {
@@ -958,8 +959,8 @@
         height: inherit;
         padding-top: 230px;
         margin-bottom: 60px;
-        font-size: 17px;
-        line-height: 30px;
+        font-size: 14px;
+        line-height: 24px;
     }
 
     .mainaboutitem::after {
@@ -1616,13 +1617,13 @@
     .cbp-af-header.cbp-af-header-shrink{
         height: auto;
     }
-    .cbp-af-header.cbp-af-header-shrink .mainlogo{
-        margin-top:10px;
-    }
-
-    /*.cbp-af-header.cbp-af-header-shrink .mainlogo {*/
-        /*display: none*/
+    /*.cbp-af-header.cbp-af-header-shrink .mainlogo{*/
+        /*margin-top:10px;*/
     /*}*/
+
+    .cbp-af-header.cbp-af-header-shrink .mainlogo {
+        display: none
+    }
 
     .cbp-af-header.cbp-af-header-shrink nav a:hover {
         border-bottom: 4px solid transparent
@@ -1810,6 +1811,9 @@
 @media screen and (max-width: 320px) {
     .wrap {
         width: 250px
+    }
+    .cbp-af-header.cbp-af-header-shrink .mainlogo{
+        display: none;
     }
 
     .stepsline .steps-left {
