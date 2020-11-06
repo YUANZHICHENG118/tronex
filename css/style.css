@@ -54,6 +54,12 @@ body {
     letter-spacing: .4px;
     color: #fff
 }
+.content-with-bg{
+    background: url("../images/content-bg.png") no-repeat center;
+    background-size: cover;
+    padding: 60px 0 50px;
+    text-align: center;
+}
 
 .wrapper {
     width: 100%;
@@ -131,7 +137,7 @@ body {
 }
 
 .cbp-af-header nav a {
-    width: 14.285%;
+    width: 10%;
     color: #dcdcdc;
     font-weight: 300;
     font-size: 16px;
@@ -1257,16 +1263,18 @@ body {
     border-top: 3px dashed #696969;
     border-left: 3px dashed #696969
 }
-
-.reviewblock {
+.applyblock,.reviewblock{
     width: 100%;
-    background: url(../images/teamback.jpg) center no-repeat;
-    position: relative;
     box-sizing: border-box;
-    padding: 60px 0
+    padding: 60px 0;
+    position: relative;
 }
 
-.reviewblock h2 {
+.reviewblock {
+    background: url(../images/teamback.jpg) center no-repeat;
+}
+
+.reviewblock h2,.applyblock h2 {
     color: #fff;
     text-align: center;
     font-size: 44px;
@@ -1276,7 +1284,7 @@ body {
     margin: 0 0 50px
 }
 
-.reviewblock h2 small {
+.reviewblock h2 small,.applyblock h2 small{
     display: block;
     font-size: 22px;
     font-weight: 200;
