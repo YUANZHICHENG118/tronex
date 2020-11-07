@@ -972,6 +972,28 @@ body {
     font-size: 50px;
     font-weight: bold;
 }
+.countDown-box .count-time b{
+    position: relative;
+}
+.countDown-box .count-time b:after{
+    content: " ";
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    background: #24A1D0;
+    filter: blur(21px);
+}
+.countDown-box .count-time b:before{
+    content: " ";
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+}
+
 
 .totalsumnum {
     display: inline-block;
