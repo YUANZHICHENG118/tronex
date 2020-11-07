@@ -137,7 +137,7 @@ body {
 }
 
 .cbp-af-header nav a {
-    width: 10%;
+    width: 11%;
     color: #dcdcdc;
     font-weight: 300;
     font-size: 16px;
@@ -1262,6 +1262,28 @@ body {
     height: 157px;
     border-top: 3px dashed #696969;
     border-left: 3px dashed #696969
+}
+.applyblock .content-with-bg{
+    display: flex;
+    justify-content: center;
+
+}
+.applyblock .listBox{
+
+}
+.applyblock .listBox .title{
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #B3B3B3;
+    line-height: 22px;
+}
+.applyblock .listBox p{
+    font-size: 24px;
+    font-family: PingFang-SC-Bold, PingFang-SC;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 33px;
 }
 .applyblock,.reviewblock{
     width: 100%;
