@@ -1359,6 +1359,7 @@ margin-top:16px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 .applyblock .applyButtonsBox{
     margin-bottom: 60px;
