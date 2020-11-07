@@ -693,10 +693,9 @@ body {
 
 .macback {
     width: 500px;
-    height: 403px;
     margin: 60px 0 40px;
     background: url(../images/macback.png);
-    background-size: 100%
+    background-size:auto 100%
 }
 
 .macbackwrap {
@@ -718,9 +717,9 @@ body {
 }
 
 .macbackwrap img {
-    height: 100px;
+    height: 78px;
+    width: auto;
     margin: 20px auto;
-    width: 160px;
     transition: .3s
 }
 
@@ -746,6 +745,35 @@ body {
 .workdesc {
     font-weight: 300;
     margin-bottom: 40px
+}
+.workdesc .workdestip{
+    margin-top:6px;
+    font-size: 16px;
+}
+.workdesc .workdes-remark{
+margin-top:16px;
+}
+.workdesc .workdes-remark p{
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(255,255,255,0.7);
+    line-height: 20px;
+}
+.workdesc .workdes-remark p span,.workdesc .workdes-warn p span{
+    color:#24A1D0;
+}
+.workdesc .workdes-warn{
+    background: #2E2E2E;
+    box-shadow: 0px 0px 30px 0px #1F1F1F;
+    border-left: 5px solid #24A1D0;
+    padding:15px 18px;
+    margin-top:16px;
+}
+.workdesc .workdes-warn p{
+    font-size: 16px;
+    line-height: 25px;
+
 }
 
 .workdesc b {
