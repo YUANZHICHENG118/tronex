@@ -55,7 +55,7 @@ body {
     color: #fff
 }
 .content-with-bg{
-    background: url("../images/content-bg.png") no-repeat center;
+    background: url("../images/content-bg.png") no-repeat top center;
     background-size: cover;
     padding: 60px 0 50px;
     text-align: center;
@@ -150,6 +150,7 @@ body {
     border-top: 6px solid transparent;
     text-shadow: 1px 1px 1px #333
 }
+
 
 .cbp-af-header nav a:nth-child(5) {
     width: 21.4275%
@@ -1266,10 +1267,66 @@ body {
 .applyblock .content-with-bg{
     display: flex;
     justify-content: center;
-
+    align-items: flex-end;
 }
-.applyblock .listBox{
-
+.applyblock .applyButtonsBox{
+    margin-bottom: 60px;
+}
+.applyblock .divideLine{
+    width: 1px;
+    height: 137px;
+    background: rgba(255,255,255,.1);
+    margin: 0 130px;
+}
+.applyblock .applyButtons{
+    display: flex;
+    justify-content: space-around;
+}
+.applyblock .applyButtons:not(first-child){
+   margin-top:30px;
+}
+.applyblock .walletAddress{
+    width: 50%;
+}
+.applyblock .walletAddress .title{
+    font-size: 26px;
+    font-family: PingFang-SC-Regular, PingFang-SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 37px;
+}
+.applyblock .walletAddress .address{
+    height: 40px;
+    line-height: 40px;
+    background: #282828;
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.34);
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 26px 0;
+}
+.applyblock .applyButtons a{
+    width: 180px;
+    height: 54px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    justify-content: center;
+}
+.applyblock .applyButtons a.not-apply{
+    background: #24A1D0;
+    border-color:#24A1D0;
+}
+.applyblock .applyButtons a.applied{
+    border-color:#979797;
 }
 .applyblock .listBox .title{
     font-size: 16px;
@@ -1277,13 +1334,14 @@ body {
     font-weight: 400;
     color: #B3B3B3;
     line-height: 22px;
+    margin-bottom: 20px;
 }
 .applyblock .listBox p{
     font-size: 24px;
     font-family: PingFang-SC-Bold, PingFang-SC;
     font-weight: bold;
     color: #FFFFFF;
-    line-height: 33px;
+    line-height: 50px;
 }
 .applyblock,.reviewblock{
     width: 100%;
@@ -1300,10 +1358,10 @@ body {
     color: #fff;
     text-align: center;
     font-size: 44px;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: bold;
     letter-spacing: 2px;
-    margin: 0 0 50px
+    margin: 0 0 50px;
+    font-family: PingFang-SC-Bold, PingFang-SC;
 }
 
 .reviewblock h2 small,.applyblock h2 small{
