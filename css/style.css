@@ -324,16 +324,20 @@ body {
 .mainbackdesc h1 span {
     color: #24A1D0
 }
+.mainbackdesc .mainico:last-child{
+    margin-left: 10px;
+}
 
 .mainico {
     height: 50px
 }
 
 .maindesc {
-    border-top: 5px solid #24A1D0;
+    border-top: 5px solid;
+    border-image:linear-gradient(90deg, #06BCCF 0%, #467FD3 100%)100 100 100 100;
     padding: 20px 0;
     margin-top: 20px;
-    text-align: left
+    text-align: left;
 }
 
 .maindesctext {
@@ -926,10 +930,47 @@ body {
     vertical-align: top;
     -webkit-font-smoothing: subpixel-antialiased
 }
+.contractBalance{
+    font-size: 36px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #24A1D0;
+    height: 78px;
+    background: #282828;
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.34);
+    border-radius: 10px;
+}
 
 .totalsumdesc b {
     font-weight: 500;
     color: #24A1D0
+}
+.countDown-box{
+
+}
+.countDown-box h3{
+    font-size: 24px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 33px;
+}
+.countDown-box h3 img{
+    width:25px;
+    height:auto;
+}
+.countDown-box .count-time{
+    height: 160px;
+    background: #282828;
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.34);
+    border-radius: 10px;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:30px 0 38px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .totalsumnum {
