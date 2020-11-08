@@ -773,7 +773,7 @@
 
 </div>
 
-<div class="remodal" data-remodal-id="invest">
+<div class="remodal"  data-remodal-id="invest">
     <a data-remodal-action="close" class="remodal-close"></a>
     <h1>交纳新保证金</h1>
     <div class="modaldesc">
@@ -803,7 +803,7 @@
     </div>
 </div>
 <!--警示倒计时-->
-<div class="remodal" data-remodal-id="countDown">
+<div class="remodal"  data-remodal-id="countDown" >
     <a data-remodal-action="close" class="remodal-close"></a>
     <div class="countDown-modal">
         <h1><img src="images/megatron-logo.png" width="20" alt="">TRON MONOPOLY</h1>
@@ -830,7 +830,7 @@
          <div class="leftBorder join-entry">
              <h3>参与游戏:</h3>
              <div class="num"><span class="totalInvested"></span> <i class="primary">TRX</i></div>
-             <div class="maindescbut" data-remodal-target="invest">参与</div>
+             <div class="maindescbut"  data-remodal-target="join">参与</div>
          </div>
          <div class="leftBorder join-data">
             <div class="balance">
@@ -867,9 +867,19 @@
     </div>
 </div>
 <!--警示倒计时-参加-->
-<div class="remodal" data-remodal-id="joinmodal">
- lalassjs
-</div>
+    <div class="remodal remodal-join" data-remodal-id="join">
+        <div class="count-down-con countDown-box">
+            <h3><img src="images/count-down-title.png"  alt=""> <span>MONOPOLY倒计时:</span></h3>
+            <div class="time counting"><b>10</b><span>s</span></div>
+         </div>
+        <div class="join">
+        <div class="join-entry">
+            <h3>参与游戏:</h3>
+            <div class="num"><span>28211111</span> <i class="primary">TRX</i></div>
+            <div class="maindescbut" data-remodal-target="joinmodal">参与</div>
+        </div>
+    </div>
+    </div>
 <!--钱包的统计弹窗-->
 <div class="remodal" data-remodal-id="wallet">
     <a data-remodal-action="close" class="remodal-close"></a>
@@ -1077,6 +1087,9 @@
 </script>
 <script>
     $(document).ready(function() {
+      $('#joinbut').click(function(){
+        $('.remodal-join').style.display='block'
+      })
         $("a.scrollto").click(function() {
             var elementClick = $(this).attr("href")
             var destination = $(elementClick).offset().top;
