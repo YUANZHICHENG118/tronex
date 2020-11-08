@@ -409,6 +409,26 @@
 }
 
 @media screen and (max-width: 768px) {
+    .applyblock .walletAddress{
+        width: 100%;
+    }
+    .applyblock .applyButtons{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .applyblock .applyButtons a{
+        width: 43%;
+        margin: 3%;
+    }
+    .pool-box .pool-num{
+        height:57px;
+    }
+    .countDown-modal .rule .list{
+        padding-left: 0;
+    }
+    .rank-box .list-box{
+        flex-direction: column;
+    }
     .applyblock .divideLine {
         height: 1px;
         width: 70%;
