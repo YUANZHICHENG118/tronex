@@ -2616,9 +2616,9 @@ html.remodal-is-locked {
 .countDown-modal{}
 .countDown-modal .rule{
     padding-bottom: 49px;
+    margin-top:24px;
 }
 .countDown-modal .rule .list{
-    margin-top:24px;
     padding-left: 20%;
 }
 .countDown-modal .rule .list p i{
@@ -2702,6 +2702,19 @@ html.remodal-is-locked {
     font-weight: 400;
     color: #FFFFFF;
     line-height: 25px;
+}
+.join .join-entry .num{
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.join .join-entry .num i{
+    float: right;
+    position: absolute;
+    right: 3%;
+    font-weight: 600;
+    font-size: 14px;
 }
 .join .join-entry .num{
     height: 40px;
