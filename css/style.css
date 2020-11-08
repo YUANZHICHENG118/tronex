@@ -2612,6 +2612,133 @@ html.remodal-is-locked {
 .colorchange {
     animation: color-change 2s infinite;
 }
+/*警示倒计时*/
+.countDown-modal{}
+.countDown-modal .rule{
+    padding-bottom: 49px;
+}
+.countDown-modal .rule .list{
+    margin-top:24px;
+    padding-left: 20%;
+}
+.countDown-modal .rule .list p i{
+    color: #24A1D0;
+    margin-right:5px;
+}
+.countDown-modal .rule .list p{
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 30px;
+    text-align: left;
+}
+.countDown-modal .rule .title{
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 45px;
+}
+.pool-box .pool-num{
+    height: 78px;
+    background: #282828;
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.34);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.pool-box h3,.count-down-con h3{
+    font-size: 21px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 29px;
+    margin: 39px 0 24px;
+}
+.leftBorder{
+    background: #2E2E2E;
+    box-shadow: 0px 0px 30px 0px #1F1F1F;
+    border-left: 5px solid #24A1D0;
+}
+.count-down-con  .time{
+    height: 160px;
+    background: #282828;
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.34);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.count-down-con  .time b{
+    position: relative;
+    font-weight: bold;
+    font-size: 50px;
+}
+.count-down-con  .time b:after{
+    content: "";
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    background: #24A1D0;
+    filter: blur(21px);
+}
+.join{
+}
+.join .join-entry{
+    padding: 20px 8%;
+}
+.join .join-entry h3{
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 25px;
+}
+.join .join-entry .num{
+    height: 40px;
+    background: #282828;
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.34);
+    border-radius: 10px;
+    margin: 16px 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.join .join-data{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.join .join-data .balance-num,.join .join-data .people-num{
+
+    font-size: 48px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #24A1D0;
+    line-height: 67px;
+
+}
+.join .join-data .balance-num i,.join .join-data .people-num i{
+    margin-right: 10px;
+}
+.join .join-data .people-head,.join .join-data .balance-head{
+
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 25px;
+}
+.join .join-data .divideLine{
+
+}
 
 @keyframes color-change {
     0% {
