@@ -206,7 +206,11 @@
                           <img src="images/count-down-title.png" alt="">
                           <span>TRON Monopoly开启倒计时：</span>
                          </h3>
-                         <div class="count-time"><b>12:13:16</b></div>
+<!--
+                         <div class="count-time"><b>00:00:00</b></div>
+-->
+
+                            <div class="count-time container timeBar ys1" data="60" ><b>00:00:00</b></div>
                          <div class="maindescbut" data-remodal-target="countDown" >开启TRON Monopoly</div>
 
                         </div>
@@ -829,7 +833,10 @@
         <div class="join">
          <div class="leftBorder join-entry">
              <h3>参与游戏:</h3>
-             <div class="num"><span class="totalInvested"></span> <i class="primary">TRX</i></div>
+             <form class="maincontform">
+             <div class="num"><input type="text" class="trxAmount1" placeholder="enter amount" value="200">
+                 <i class="primary">TRX</i></div>
+             </form>
              <div class="maindescbut"  data-remodal-target="join">参与</div>
          </div>
          <div class="leftBorder join-data">
@@ -875,8 +882,11 @@
         <div class="join">
         <div class="join-entry">
             <h3>参与游戏:</h3>
-            <div class="num"><span>28211111</span> <i class="primary">TRX</i></div>
-            <div class="maindescbut" data-remodal-target="joinmodal">参与</div>
+            <form class="maincontform">
+            <div class="num"> <input type="text" class="trxAmount3" placeholder="enter amount" value="200">
+                <i class="primary">TRX</i></div>
+            </form>
+            <div class="maindescbut investButton3">参与</div>
         </div>
     </div>
     </div>
