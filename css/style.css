@@ -2649,6 +2649,8 @@ html.remodal-is-locked {
     align-items: center;
     justify-content: center;
     position: relative;
+    font-weight: 600;
+    font-size: 36px;
 }
 
 .pool-box h3,.count-down-con h3{
@@ -2715,6 +2717,7 @@ html.remodal-is-locked {
     margin: 30px 0;
     display: flex;
     justify-content: space-between;
+    padding: 30px 0;
 }
 .join .join-data .balance-num,.join .join-data .people-num{
 
@@ -2738,6 +2741,70 @@ html.remodal-is-locked {
 }
 .join .join-data .divideLine{
 
+}
+.join .join-data div{
+    flex: 1;
+}
+.rank-box{
+    padding: 20px;
+}
+.rank-box .list-box{
+    display: flex;
+    justify-content: space-between;
+}
+.rank-box .title{
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 25px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.rank-box .title span,.primary{
+color: #24A1D0;
+}
+.rank-box p{
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(255,255,255,0.8);
+}
+.rank-box p  i{
+    color: #24A1D0;
+    margin-left: 10px;
+}
+.rank-box p .place{
+
+    font-size: 18px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #24A1D0;
+    line-height: 25px;
+    margin-right: 10px;
+}
+.distribution{
+    margin-top:40px;
+}
+.distribution h3{
+
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.distribution p{
+
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 30px;
 }
 
 @keyframes color-change {
