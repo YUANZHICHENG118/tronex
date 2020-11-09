@@ -327,7 +327,10 @@ body {
 .mainbackdesc .mainico:last-child{
     margin-left: 10px;
 }
-
+.mainbackdesc .imgs{
+    display: flex;
+    align-items: center;
+}
 .mainico {
     height: 50px
 }
