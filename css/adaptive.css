@@ -89,7 +89,7 @@
     .macback {
         width: 440px;
         height: 355px;
-        background: url(../images/macback.png);
+        background: url(../images/macback.png) no-repeat;
         background-size: contain
     }
 
@@ -419,6 +419,8 @@
     .applyblock .applyButtons a{
         width: 43%;
         margin: 3%;
+        height: 45px;
+        font-size: 16px;
     }
     .pool-box .pool-num{
         height:57px;
@@ -430,10 +432,14 @@
         flex-direction: column;
     }
     .applyblock .divideLine {
-        height: 1px;
-        width: 70%;
-        background: rgba(255,255,255,.1);
-        margin: 25px 0;
+
+        margin: 0 10px;
+    }
+    .applyblock .listBox .title {
+        font-size: 12px;
+    }
+    .applyblock .listBox{
+        flex: 1;
     }
     .wrap {
         width: 550px
@@ -801,6 +807,16 @@
         font-size: 14px;
         line-height: 1.2
     }
+    .applyblock, .reviewblock{
+        padding: 60px 0 0;
+    }
+    .applyblock .walletAddress .title{
+        font-size: 24px;
+    }
+    .applyblock .walletAddress .address{
+        line-height: normal;
+        word-break: break-all;
+    }
 
     .cbp-af-header.cbp-af-header-shrink nav a {
         line-height: 60px
@@ -844,7 +860,9 @@
     .maindesclink a:lang(ru) {
         font-size: 13px
     }
-
+    .reviewblock h2, .applyblock h2{
+        margin: 0 0 20px;
+    }
     .mainabout h2, .workblock h2, .stepsmainblock h2, .reviewblock h2, .contactsblock h2, .applyblock h2 {
         font-size: 24px;
         line-height: 1.2
@@ -1250,6 +1268,10 @@
 @media screen and (max-width: 400px) {
     .wrap {
         width: 300px
+    }
+    .applyblock .listBox p{
+        font-size: 16px;
+        line-height: 40px;
     }
 
     .mainbackdesc {
