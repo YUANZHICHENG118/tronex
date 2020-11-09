@@ -234,7 +234,7 @@
         line-height: 66px
     }
 
-    .countDown-box .count-time{
+    .countDown-box .count-time {
         height: 100px;
     }
 
@@ -409,38 +409,51 @@
 }
 
 @media screen and (max-width: 768px) {
-    .applyblock .walletAddress{
+    .applyblock .walletAddress {
         width: 100%;
     }
-    .applyblock .applyButtons{
+
+    .applyblock .applyButtons {
         flex-wrap: wrap;
         justify-content: flex-start;
     }
-    .applyblock .applyButtons a{
+
+    .applyblock .applyButtons a {
         width: 43%;
         margin: 3%;
         height: 45px;
         font-size: 16px;
     }
-    .pool-box .pool-num{
-        height:57px;
+
+    .pool-box .pool-num {
+        height: 57px;
     }
-    .countDown-modal .rule .list{
+
+    .countDown-modal .rule .list {
         padding-left: 0;
     }
-    .rank-box .list-box{
+
+    .rank-box .list-box {
         flex-direction: column;
     }
+
     .applyblock .divideLine {
 
         margin: 0 10px;
     }
+
     .applyblock .listBox .title {
         font-size: 12px;
     }
-    .applyblock .listBox{
+
+    .applyblock .listBox p {
+        font-size: 18px;
+    }
+
+    .applyblock .listBox {
         flex: 1;
     }
+
     .wrap {
         width: 550px
     }
@@ -548,7 +561,7 @@
         line-height: 54px
     }
 
-    .countDown-box .count-time{
+    .countDown-box .count-time {
         height: 100px;
     }
 
@@ -770,16 +783,10 @@
 }
 
 @media screen and (max-width: 576px) {
-    .calcpage h2 {
-        font-size: 20px
-    }
 
     .wrap {
-        width: 380px
-    }
-
-    .cbp-af-header .mainlogo img {
-        height: 60px
+        /*width: 380px*/
+        width: 80%;
     }
 
     .cbp-af-header nav a {
@@ -799,21 +806,28 @@
         font-size: 19px
     }
 
+    .calcpage h2, .mainaboutitem2 h3 {
+        font-size: 20px
+    }
+
     .mainico {
-        height: 40px
+        height: 35px
     }
 
     .maindesctext span {
         font-size: 14px;
         line-height: 1.2
     }
-    .applyblock, .reviewblock{
+
+    .applyblock, .reviewblock {
         padding: 60px 0 0;
     }
-    .applyblock .walletAddress .title{
+
+    .applyblock .walletAddress .title {
         font-size: 24px;
     }
-    .applyblock .walletAddress .address{
+
+    .applyblock .walletAddress .address {
         line-height: normal;
         word-break: break-all;
     }
@@ -826,7 +840,7 @@
         height: 50px
     }
 
-    .cbp-af-header.cbp-af-header-shrink {
+    .cbp-af-header.cbp-af-header-shrink, .cbp-af-header .mainlogo, .cbp-af-header .mainlogo img {
         height: 60px
     }
 
@@ -834,10 +848,6 @@
         height: 52px;
         vertical-align: top;
         padding-top: 7px
-    }
-
-    .cbp-af-header .mainlogo {
-        height: 60px
     }
 
     .cbp-af-header .mainlogo img {
@@ -853,23 +863,17 @@
         font-size: 16px
     }
 
-    .maindesclink a {
-        font-size: 14px
-    }
-
     .maindesclink a:lang(ru) {
         font-size: 13px
     }
-    .reviewblock h2, .applyblock h2{
+
+    .reviewblock h2, .applyblock h2 {
         margin: 0 0 20px;
     }
+
     .mainabout h2, .workblock h2, .stepsmainblock h2, .reviewblock h2, .contactsblock h2, .applyblock h2 {
         font-size: 24px;
         line-height: 1.2
-    }
-
-    .mainaboutitem2 h3 {
-        font-size: 20px
     }
 
     .mainaboutitem h3 {
@@ -931,7 +935,11 @@
         padding: 0
     }
 
-    .workdescpre {
+    .workdesc .workdestip, .workdesc .workdes-remark p {
+        font-size: 12px;
+    }
+
+    .workdescpre, .workdesc, .maincontform label, .modalline, .workdesc .workdes-warn p, .maindesclink a {
         font-size: 14px
     }
 
@@ -939,10 +947,6 @@
         font-size: 16px;
         line-height: 1.4;
         margin: 10px 0
-    }
-
-    .workdesc {
-        font-size: 14px
     }
 
     .macback {
@@ -1134,32 +1138,20 @@
         height: 26px
     }
 
-    .maincontform label {
-        font-size: 14px
-    }
-
-    .maincontform input[type="text"] {
+    .maincontform input[type="text"], .contesttitle, .calcpage h2 {
         font-size: 16px
-    }
-
-    .modalline {
-        font-size: 14px
     }
 
     .modallogo {
         height: 50px
     }
 
-    .modaldesc h3 {
+    .modaldesc h3, .stepsline h3:lang(ru) {
         font-size: 18px
     }
 
-    .stepsline h3 {
+    .stepsline h3, .socwrap i {
         font-size: 22px
-    }
-
-    .stepsline h3:lang(ru) {
-        font-size: 18px
     }
 
     .mainauditwrap {
@@ -1192,10 +1184,6 @@
         padding: 10px 0 0
     }
 
-    .socwrap i {
-        font-size: 22px;
-    }
-
     .socwrap {
         position: relative;
         width: 50px;
@@ -1205,7 +1193,7 @@
         padding-left: 4px;
     }
 
-    .socblock {
+    .socblock, .langblock {
         width: 30px;
     }
 
@@ -1247,29 +1235,43 @@
         font-size: 18px;
     }
 
-    .langblock {
-        width: 30px;
-    }
-
     .calcpage {
         width: 400px;
         font-size: 14px;
     }
 
-    .contesttitle {
-        font-size: 16px;
-    }
-
-    .calcpage h2 {
-        font-size: 16px;
-    }
 }
 
 @media screen and (max-width: 400px) {
     .wrap {
         width: 300px
     }
-    .applyblock .listBox p{
+
+    .remodal-join {
+        width: 94%;
+    }
+
+    .count-down-con .time b {
+        font-size: 30px;
+    }
+
+    .join .join-data .people-head, .join .join-data .balance-head {
+        font-size: 15px;
+    }
+
+    .leftBorder {
+        border-width: 3px;
+    }
+
+    .totalsumnum.trxbalance:before {
+        font-size: 22px;
+    }
+
+    .join .join-data {
+        margin: 15px 0;
+    }
+
+    .applyblock .listBox p {
         font-size: 16px;
         line-height: 40px;
     }
@@ -1422,7 +1424,7 @@
         right: -5px
     }
 
-    .remodal h1 {
+    .remodal h1, .remodal .pool-box h3, .remodal .count-down-con h3 {
         font-size: 20px
     }
 
