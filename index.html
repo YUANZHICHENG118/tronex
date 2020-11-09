@@ -1090,13 +1090,11 @@
     $(document).ready(function() {
       $('#joinbut').click(function(){
         setTimeout(function(){
-          $('#countDown-join').parent().addClass('Warningbg')
-          $('#countDown-join').parent().css('cssText','display:block')
+          $('#countDown-join').parent().addClass('Warningbg').css('cssText','display:block')
         },0)
       })
       $(document).on('closed', '.remodal', function (e) {
         $('#countDown-join').parent().removeClass('Warningbg')
-        console.log('Modal is closed');
       });
 
         $("a.scrollto").click(function() {
