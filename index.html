@@ -798,7 +798,7 @@
     </div>
 </div>
 <!--警示倒计时-->
-<div class="remodal"  data-remodal-id="countDown" >
+<div class="remodal" id="countDown-join"  data-remodal-id="countDown" >
     <a data-remodal-action="close" class="remodal-close"></a>
     <div class="countDown-modal">
         <h1><img src="images/megatron-logo.png" width="20" alt="">TRON MONOPOLY</h1>
@@ -828,7 +828,7 @@
              <div class="num"><input type="text" class="trxAmount1" placeholder="enter amount" value="200">
                  <i class="primary">TRX</i></div>
              </form>
-             <div class="maindescbut"  data-remodal-target="join">参与</div>
+             <div class="maindescbut"  data-remodal-target="join" id="joinbut">参与</div>
          </div>
          <div class="leftBorder join-data">
             <div class="balance">
@@ -1089,8 +1089,16 @@
 <script>
     $(document).ready(function() {
       $('#joinbut').click(function(){
-        $('.remodal-join').style.display='block'
+        setTimeout(function(){
+          $('#countDown-join').parent().addClass('Warningbg')
+          $('#countDown-join').parent().css('cssText','display:block')
+        },0)
       })
+      $(document).on('closed', '.remodal', function (e) {
+        $('#countDown-join').parent().removeClass('Warningbg')
+        console.log('Modal is closed');
+      });
+
         $("a.scrollto").click(function() {
             var elementClick = $(this).attr("href")
             var destination = $(elementClick).offset().top;
