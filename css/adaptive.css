@@ -1251,8 +1251,8 @@
         width: 94%;
     }
 
-    .count-down-con .time b {
-        font-size: 30px;
+    .count-down-con .time span {
+        font-size: 42px;
     }
 
     .join .join-data .people-head, .join .join-data .balance-head {

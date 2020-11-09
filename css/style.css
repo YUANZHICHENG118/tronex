@@ -2842,9 +2842,24 @@ color: #24A1D0;
 .remodal-join{
     width: 400px;
 }
+.remodal-join .count-down-con .time span{
+
+    font-size: 48px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color:rgba(255,255,255,.6);
+    line-height: 67px;
+    margin-left: 10px;
+}
 .remodal-join .count-down-con .time b:after{
     background: rgba(255, 0, 0, 0.55);
     filter: blur(21px);
+}
+.remodal-join .maincontform{
+    width: 100%;
+}
+.remodal-join .join .join-entry{
+    padding: 20px 0;
 }
 
 @keyframes color-change {
