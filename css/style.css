@@ -330,6 +330,7 @@ body {
 .mainbackdesc .imgs{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .mainico {
     height: 50px
@@ -1009,23 +1010,16 @@ margin-top:16px;
 .countDown-box .count-time b{
     position: relative;
 }
-.countDown-box .count-time b:after{
-    content: " ";
-    position: absolute;
-    top: 10%;
-    bottom: 10%;
-    left: 10%;
-    right: 10%;
-    background: #24A1D0;
-    filter: blur(21px);
-}
+/**/
 .countDown-box .count-time b:before{
     content: " ";
     position: absolute;
     top: 10%;
     bottom: 10%;
-    left: 10%;
-    right: 10%;
+    left: 0;
+    right: 0;
+    background: #24A1D0;
+    filter: blur(21px);
 }
 
 
@@ -2692,21 +2686,15 @@ html.remodal-is-locked {
     justify-content: center;
     margin-bottom: 30px;
 }
-.count-down-con  .time b{
+.count-down-con .time b{
     position: relative;
     font-weight: bold;
     font-size: 50px;
 }
-.count-down-con  .time b:after{
-    content: "";
-    position: absolute;
-    top: 10%;
-    bottom: 10%;
-    left: 0;
-    right: 0;
-    background: #24A1D0;
-    filter: blur(21px);
+.count-down-con .time b span{
+    position: relative;
 }
+
 .join{
 }
 .join .join-entry{
@@ -2841,9 +2829,34 @@ color: #24A1D0;
 .remodal-join{
     width: 400px;
 }
-.remodal-join .count-down-con .time b:after{
+.remodal-join .count-down-con .time i{
+    font-size: 48px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color:rgba(255,255,255,.6);
+    line-height: 67px;
+    margin-left: 10px;
+}
+.Warningbg #countDown-join:after{
+    content: "";
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 0, 0, 0.29);
+
+}
+.remodal-join .count-down-con .time b:before{
     background: rgba(255, 0, 0, 0.55);
     filter: blur(21px);
+    margin: -50%;
+}
+.remodal-join .maincontform{
+    width: 100%;
+}
+.remodal-join .join .join-entry{
+    padding: 20px 0;
 }
 
 @keyframes color-change {
