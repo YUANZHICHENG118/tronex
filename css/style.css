@@ -986,6 +986,8 @@ margin-top:16px;
     font-weight: 400;
     color: #FFFFFF;
     line-height: 33px;
+    display: flex;
+    align-items: center;
 }
 .countDown-box h3 img{
     width:25px;
