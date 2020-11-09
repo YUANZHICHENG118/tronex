@@ -1320,7 +1320,7 @@
     }
 
     .mainico {
-        height: 35px
+        height: 25px
     }
 
     .mainabout {
@@ -1339,11 +1339,6 @@
     .mainaboutitem h3 {
         font-size: 15px
     }
-
-    .maincompany {
-        font-size: 12px
-    }
-
     .certimg {
         height: 145px
     }
@@ -1356,11 +1351,7 @@
         display: none
     }
 
-    .workdesc {
-        font-size: 12px
-    }
-
-    .macblock .macblockline {
+    .macblock .macblockline,.workdesc,.maincompany {
         font-size: 12px
     }
 
@@ -1371,17 +1362,13 @@
     }
 
     .macbackwrap {
-        height: 160px
+        height: 140px
     }
 
     .macbackwrap img {
-        height: 50px;
+        height: 40px;
         margin: 10px auto;
-        width: 76px
-    }
-
-    .stepsblock {
-        font-size: 12px
+        width: 60px
     }
 
     .bigstepline {
@@ -1407,14 +1394,9 @@
         padding: 20px 15px
     }
 
-    .maincontform label {
+    .maincontform label,.modalref,.stepsblock {
         font-size: 12px
     }
-
-    .modalref {
-        font-size: 12px
-    }
-
     .remodal-close {
         top: -5px;
         right: -5px

@@ -330,6 +330,7 @@ body {
 .mainbackdesc .imgs{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .mainico {
     height: 50px
