@@ -803,9 +803,10 @@ margin-top:16px;
     font-weight: 200;
     font-size: 30px;
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 20px;
-    color: #24A1D0
+    color: #24A1D0;
+    transform: translate(0, -50%);
 }
 
 .mainaboutitemsblock {
