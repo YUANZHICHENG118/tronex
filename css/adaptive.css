@@ -1269,6 +1269,24 @@
     .wrap {
         width: 300px
     }
+    .remodal-join{
+        width: 94%;
+    }
+    .count-down-con .time b{
+        font-size: 30px;
+    }
+    .join .join-data .people-head, .join .join-data .balance-head{
+        font-size: 15px;
+    }
+    .leftBorder{
+        border-width: 3px;
+    }
+    .totalsumnum.trxbalance:before{
+        font-size: 22px;
+    }
+    .join .join-data{
+        margin: 15px 0;
+    }
     .applyblock .listBox p{
         font-size: 16px;
         line-height: 40px;
@@ -1422,7 +1440,7 @@
         right: -5px
     }
 
-    .remodal h1 {
+    .remodal h1,.remodal .pool-box h3,.remodal .count-down-con h3 {
         font-size: 20px
     }
 

@@ -2165,11 +2165,16 @@ margin-top:16px;
 }
 
 .remodal h1 {
-    text-transform: uppercase;
     color: #fff;
     font-size: 24px;
     letter-spacing: 1px;
-    font-weight: 500
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.remodal h1 img{
+    margin-right: 10px;
 }
 
 .remodal.remodal-is-opening, .remodal.remodal-is-closing {
@@ -2659,8 +2664,13 @@ html.remodal-is-locked {
     font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #FFFFFF;
-    line-height: 29px;
     margin: 39px 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.countDown-box h3 img{
+    margin-right: 10px;
 }
 .leftBorder{
     background: #2E2E2E;
@@ -2754,6 +2764,9 @@ html.remodal-is-locked {
     line-height: 25px;
 }
 .join .join-data .divideLine{
+    flex:inherit;
+    width: 1px;
+    background: #535353;
 
 }
 .join .join-data div{
