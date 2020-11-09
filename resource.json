@@ -1,6 +1,6 @@
 {
     "header": [
-      
+
     ],
     "success": [
         {
@@ -69,7 +69,7 @@
                 },
                 {
                     "url": "https://megatron-plus.online/img/tron.svg",
-                    "path": "images/tron.svg"
+                    "path": "images/tron.png"
                 },
                 {
                     "url": "https://megatron-plus.online/img/icostep2.png",

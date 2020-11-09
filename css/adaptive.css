@@ -606,7 +606,7 @@
     }
 
     .macblockdesc {
-        font-size: 22px
+        font-size: 18px
     }
 
     .macblock .macblockline {
@@ -955,13 +955,13 @@
     }
 
     .macbackwrap {
-        height: 178px
+        height: 155px
     }
 
     .macbackwrap img {
-        height: 60px;
+        height: 40px;
         margin: 10px auto;
-        width: 90px
+        width: 70px
     }
 
     .macblock .macblockline {
@@ -987,7 +987,7 @@
     }
 
     .bigstepline {
-        height: 930px
+        display: none;
     }
 
     .mainabout h2 small, .workblock h2 small, .stepsmainblock h2 small, .reviewblock h2 small, .contactsblock h2 small, .applyblock h2 small {
@@ -1372,10 +1372,6 @@
 
     .macbackwrap {
         height: 160px
-    }
-
-    .macblockdesc {
-        font-size: 18px
     }
 
     .macbackwrap img {
