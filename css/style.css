@@ -2873,3 +2873,30 @@ color: #24A1D0;
         color: #dcdcdc;
     }
 }
+.userPercentRate{
+    display: flex;
+    align-items: center;
+
+}
+.userPercentRate .number{
+    font-size: 36px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #24A1D0;
+    line-height: 50px;
+}
+.userPercentRate .progress{
+    flex: 1;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(36,161,208,.4);
+    margin: 0 15px;
+    display: flex;
+
+}
+.userPercentRate .progress .inner{
+    background: linear-gradient(180deg, #4ACFEA 0%, #24A1D0 100%);
+    border-radius: 10px;
+    display: inline-block;
+
+}
