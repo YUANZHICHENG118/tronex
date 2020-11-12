@@ -2439,6 +2439,11 @@ html.remodal-is-locked {
 .modallinewrap .modalline-item{
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(255,255,255,.5);
+    line-height: 20px;
 
 }
 .modallinewrap .modalline-item .gt{
@@ -2447,6 +2452,11 @@ html.remodal-is-locked {
     font-weight: bold;
     line-height: 21px;
     margin-right: 8px;
+}
+.modallinewrap .modalline-item .unit{
+    font-size: 11px;
+    color: #999999;
+    line-height: 16px;
 }
 
 .modallinewrap .withdrawButton {
