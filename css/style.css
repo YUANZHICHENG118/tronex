@@ -2907,7 +2907,7 @@ color: #24A1D0;
     color: #24A1D0;
     line-height: 50px;
 }
-.userPercentRate .progress{
+.userPercentRate .progress,.totalWin .progress{
     flex: 1;
     height: 20px;
     border-radius: 10px;
@@ -2916,7 +2916,7 @@ color: #24A1D0;
     display: flex;
 
 }
-.userPercentRate .progress .inner{
+.userPercentRate .progress .inner,.totalWin .progress .inner{
     border-radius: 10px;
     display: inline-block;
 
@@ -2926,6 +2926,10 @@ color: #24A1D0;
 
 }
 
- .warring{
+ .r{
     background: linear-gradient(180deg, #eac2a2 0%, #d03e58 100%);
+}
+
+.y{
+    background: linear-gradient(180deg, #eac2a2 0%, #cad066 100%);
 }
