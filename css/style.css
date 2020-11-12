@@ -2917,8 +2917,15 @@ color: #24A1D0;
 
 }
 .userPercentRate .progress .inner{
-    background: linear-gradient(180deg, #4ACFEA 0%, #24A1D0 100%);
     border-radius: 10px;
     display: inline-block;
 
+}
+.normal{
+    background: linear-gradient(180deg, #4ACFEA 0%, #24A1D0 100%);
+
+}
+
+ .warring{
+    background: linear-gradient(180deg, #eac2a2 0%, #d03e58 100%);
 }
