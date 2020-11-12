@@ -2436,6 +2436,18 @@ html.remodal-is-locked {
 .modallinewrap {
     width: 50%
 }
+.modallinewrap .modalline-item{
+    display: flex;
+    justify-content: space-between;
+
+}
+.modallinewrap .modalline-item .gt{
+    font-size: 18px;
+    font-family: DINAlternate-Bold, DINAlternate;
+    font-weight: bold;
+    line-height: 21px;
+    margin-right: 8px;
+}
 
 .modallinewrap .withdrawButton {
     margin-top: 4px
