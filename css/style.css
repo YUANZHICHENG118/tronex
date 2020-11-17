@@ -2849,15 +2849,13 @@ color: #24A1D0;
     color: #FFFFFF;
     line-height: 30px;
 }
-.remodal-join{
-    width: 400px;
-}
+
 .remodal-join .count-down-con .time i{
     font-size: 48px;
     font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color:rgba(255,255,255,.6);
-    line-height: 67px;
+    line-height: 47px;
     margin-left: 10px;
 }
 .Warningbg #countDown-join:after{
